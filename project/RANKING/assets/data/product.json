@@ -1,0 +1,537 @@
+{
+    "items":[
+        {
+            "id":0,
+            "thumb":"./assets/images/best-img1.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":147,
+                "grade":5.0
+            },
+            "title":"맛있닭 닭가슴살 볼 혼합 100g",
+            "price":{
+                "sale":0,
+                "og":27700,
+                "curr":19900
+            },
+            "info":"1팩당 : 7,500원~7,900원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[1]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230227/IMG1677hST485391503_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":3000,
+                "grade":5.0
+            },
+            "title":"치품닭 닭가슴살 볼 혼합 100g",
+            "price":{
+                "sale":0,
+                "og":27700,
+                "curr":19900
+            },
+            "info":"1팩당 : 1,600원~1,690원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[1]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230523/IMG1684ZDd830689913_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":21,
+                "grade":4.8
+            },
+            "title":"랭커 닭가슴살 소시지 혼합 100g",
+            "price":{
+                "sale":30,
+                "og":18200,
+                "curr":12800
+            },
+            "info":"1팩당 : 990원~1,280원",
+            "icons":{
+                "new":true,
+                "add":true,
+                "chk":false
+            },
+            "sort":[1]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230412/IMG1681uPI262685000_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":19,
+                "grade":4.9
+            },
+            "title":"러브잇 소프트 오리지널·프로 닭가슴살 혼합 100g~120g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":23400
+            },
+            "info":"1팩당 : 2,075원~2,340원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[1]
+        },
+
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/3ad332024764965d4979240fbf1886c2_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":1000,
+                "grade":4.9
+            },
+            "title":"맛있닭 에어치킨 닭다리살 115g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":18500
+            },
+            "info":"1팩당 : 3,250원~3,700원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[2]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/65c0f024a0565f3bbfc528f022353f76_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":402,
+                "grade":4.8
+            },
+            "title":"탉 못참겠다 치킨텐더 닭안심 200g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":18900
+            },
+            "info":"1팩당 : 2,327원~2,700원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[2]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/e2158dd35099b5f6a15dac93b1d1fb11_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":133,
+                "grade":4.7
+            },
+            "title":"맛있찬 닭가슴살 장조림 80g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":9900
+            },
+            "info":"1팩당 : 1,590원~1,990원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[2]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/c0e77b099909b12781bb6529deceb5d7_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":2000,
+                "grade":4.9
+            },
+            "title":"맛있닭 다이어트 떡볶이닭 혼합 240g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":22500
+            },
+            "info":"1팩당 : 4,200원~4,500원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[2]
+        },
+
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/48ffdf7071a263d97c0ae9066044b260_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":2000,
+                "grade":4.9
+            },
+            "title":"맛있닭 닭가슴살 한끼 파우치 곤약 볶음밥 혼합 200g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":30800
+            },
+            "info":"1팩당 : 2,930원~3,080원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[3]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/86fb9f7acc8de850e7140d4cd32cdc7b_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":2000,
+                "grade":4.9
+            },
+            "title":"교촌 시그니처 닭가슴살 볶음밥 혼합 230g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":24900
+            },
+            "info":"1팩당 : 2,023원~2,490원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[3]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230428/IMG1682dVQ649618766_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":384,
+                "grade":4.9
+            },
+            "title":"랭커 닭가슴살 볶음밥 혼합 200g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":14900
+            },
+            "info":"1팩당 : 1,340원~1,490원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[3]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/ccd6579e985fffe7db44cdcfd2bd440e_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":585,
+                "grade":4.9
+            },
+            "title":"허닭 닭가슴살 곤약 볶음밥 250g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":25000
+            },
+            "info":"1팩당 : 2,500원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[3]
+        },
+
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/51acf910f6f9247278ce29121df7a96d_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":1000,
+                "grade":4.9
+            },
+            "title":"맛있닭 소프트 닭 안심살 마늘 100g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":19900
+            },
+            "info":"1팩당 : 1,840원~1,990원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[4]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/65c0f024a0565f3bbfc528f022353f76_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":402,
+                "grade":4.8
+            },
+            "title":"탉 못참겠다 치킨텐더 닭안심 200g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":18900
+            },
+            "info":"1팩당 : 2,327원~2,700원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[4]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230321/IMG1679cwy372225118_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":22,
+                "grade":4.5
+            },
+            "title":"bhc 시그니처 닭안심살 120g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":4000
+            },
+            "info":"1팩당 : 4,000원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":false
+            },
+            "sort":[4]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220525/IMG1653wgw445954819_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":73,
+                "grade":4.9
+            },
+            "title":"맛있닭 통안심 탕수육 혼합 450g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":19500
+            },
+            "info":"1팩당 : 5,600원~6,500원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[4]
+        },
+
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/09455247c824dfee17aad31baa7ae269_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":1000,
+                "grade":4.8
+            },
+            "title":"프레쉬홈 이지 샐러드 혼합 90g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":23700
+            },
+            "info":"1팩당 : 7,500원~7,900원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":false
+            },
+            "sort":[5]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20221028/IMG1666gPi915853767_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":98,
+                "grade":4.6
+            },
+            "title":"프레쉬홈 풀업 샐러드 혼합 280g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":23700
+            },
+            "info":"1팩당 : 7,500원~7,900원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":false
+            },
+            "sort":[5]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/6109232eae22c6dc0be5d269acd43652_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":936,
+                "grade":4.7
+            },
+            "title":"프레쉬홈 토핑 샐러드 혼합 180g ~ 190g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":24900
+            },
+            "info":"1팩당 : 4,695원~4,980원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[5]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/168b1b424158e77b57babc64bae78cb2_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":9999,
+                "grade":4.9
+            },
+            "title":"1am 알뜰 Daily 샐러드 5종 혼합 100g",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":10950
+            },
+            "info":"1팩당 : 2,040원~2,190원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[5]
+        },
+
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230531/IMG1685PEd513196225_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":0,
+                "grade":0
+            },
+            "title":"랭커 WPI 단백질쉐이크 초코 1kg",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":44900
+            },
+            "info":"1팩당 : 44,900원",
+            "icons":{
+                "new":true,
+                "add":true,
+                "chk":false
+            },
+            "sort":[6]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230216/IMG1676VQA512911838_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":9999,
+                "grade":4.9
+            },
+            "title":"1am 스파클링 캔 혼합 (0kcal) 210ml",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":9600
+            },
+            "info":"1팩당 : 549원~800원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":true
+            },
+            "sort":[6]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20221205/IMG1670FcA208562430_330_330.jpg",
+            "freeDeli":false,
+            "review":{
+                "count":9999,
+                "grade":4.9
+            },
+            "title":"닥터유PRO 단백질 파우더 초코 1kg",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":9600
+            },
+            "info":"1팩당 : 49,900원",
+            "icons":{
+                "new":true,
+                "add":false,
+                "chk":false
+            },
+            "sort":[6]
+        },
+        {
+            "id":0,
+            "thumb":"https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220325/d1d74bcb8afb9a27df7bb41ee060c488_330_330.jpg",
+            "freeDeli":true,
+            "review":{
+                "count":9999,
+                "grade":4.9
+            },
+            "title":"타브카 에너지 드링크 혼합 355ml",
+            "price":{
+                "sale":0,
+                "og":18200,
+                "curr":8200
+            },
+            "info":"1팩당 : 1,300원~1,367원",
+            "icons":{
+                "new":false,
+                "add":false,
+                "chk":true
+            },
+            "sort":[6]
+        }
+    ]
+}

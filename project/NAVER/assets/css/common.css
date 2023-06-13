@@ -1,0 +1,77 @@
+
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.container{
+    letter-spacing: -.25px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+.thumb-bd{
+    position: relative;
+    display: block;
+}
+.thumb-bd::after{
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    content: '';
+    border: 1px solid #000;
+    opacity: 0.1;
+}
+
+.sc-shopping .tab-on{
+    display: block;
+    padding: 0 1px;
+    border-bottom: 2px solid transparent;
+}
+
+
+
+/* 공유창고1 - 배경이 나오게 하고 싶다면 클래스명 입력 */
+.header .logo a:before,
+.header .search-area .btn-submit::after,
+.header .service-area a::after,
+.sc-news .group-title .btn-set::after,
+.sc-login .link-login::before,
+.sc-theme .info-area .btn-set::before,
+.sc-theme .thm5-title a::after,
+.sc-theme .btn-more-wrap .ico-more,
+.footer .notice-area>a::after,
+.gnb .group-nav .btn-more::after,
+.gnb .group-nav .before::before,
+.weather-area strong::before,
+.sc-login .flex-area .link-id::before,
+.sc-login .flex-area .link-join::before,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-title .link-title::after,
+.sc-news .btn::after,
+.sc-theme .btn::after,
+.icon-play{
+    background-image: url(../images/sp-bg.png);
+    background-size: 442px;
+    background-repeat: no-repeat;
+}
+
+/* 공유창고2 */
+.sc-shopping .group-title h2 a::before,
+.sc-shopping .group-title h2 a::after,
+.sc-timesquare .nav-wrap .btn-nav::before,
+.sc-shopping .nav-wrap .btn-nav::before,
+.sc-shopping .group-goods .page-btn .btn::before,
+.sc-shopping .news-title strong a::before,
+.sc-shopping .deal-list .thumb-box + .thumb-box::before,
+.sc-shopping .deal-list .one-plus{
+    background-image: url(../images/sp-bg2.png);
+    background-size: 129px 101px;
+    background-repeat: no-repeat;
+}

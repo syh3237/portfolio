@@ -1,0 +1,227 @@
+@import './common.css';
+@import './reset.css';
+
+/* header */
+.header .group-logo {
+    display: flex;
+    font-weight: 700;
+}
+.header .group-logo .logo {
+    margin-top: 8px;
+}
+.header .group-logo .logo a {
+    background: url("/assets/images/sp-bg.png") no-repeat -5px -165px;
+    display: block;
+    width: 105px;
+    height: 27px;
+}
+.header .group-logo .gnb {
+    margin-left: 65px;
+}
+.header .group-logo .gnb .gnb-list {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    line-height: 48px;
+}
+.header .gnb-item a{
+    line-height: 48px;
+}
+.header .group-logo .util-area {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 0 10px;
+}
+.header .group-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    position: relative;
+    /* padding-right: 30px; */
+}
+.header .group-search .text-logo a {
+    background: url("https://www.seoul.go.kr/res_newseoul/images/common/seoul-slogan.png") no-repeat 0 0;
+    width: 133px;
+    height: 51px;
+    display: block;
+}
+.header .group-search .input-box {
+    width: 520px;
+    height: 42px;
+    border: 3px solid #2292e9;
+    position: relative;
+}
+.header .group-search .input-box input{
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+    line-height: 38px;
+}
+.header .group-search .input-box input::placeholder{
+    color: #2292e9;
+}
+.header .input-box .keyboard{
+    position: absolute;
+    top: 12px;right: 42px;
+}
+.header .input-box .search-btn{
+    display: block;
+    width: 36px;height: 36px;
+    background: url('../images/sp-bg.png') no-repeat -32px -97px;
+    content: '';
+    position: absolute;
+    top: 0;right: 0;
+}
+.header .group-search .lang {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;height: 21px;
+}
+.header .group-search .lang input{
+    color: #fff;
+    background-color: #1E6CB3;
+    font-size: 11px;
+    width: 30px;
+    height: 21px;
+    border: 0;
+    position: absolute;
+}
+.header .group-search .lang select{
+    width: 80px;height: 21px;
+    border-color: #afcfea;
+    color: #1E6CB3;
+    font-size: 12px;
+    padding: 2px 0 2px;
+    line-height: 21px;
+}
+
+.header .group-search .weather{
+    width: 270px;height: 85px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.header .group-search .weather .wth-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.header .group-search .weather .wth-info .deg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header .group-search .weather .wth-info .deg .strong{
+    font-size: 25px;
+}
+.header .group-search .weather .wth-info .deg p{
+    font-size: 16px;
+}
+.header .group-search .weather .wth-info .stat{
+    display: flex;
+    gap: 5px;
+}
+.header .group-search .weather .wth-info .stat p{
+    letter-spacing: -1px;
+    font-size: 13px;
+}
+.header .group-search .weather .wth-info .stat span{
+    color: #009944;
+}
+
+/* footer */
+
+.footer .link-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .link-area .gnb-list{
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    padding: 15px 0;
+}
+.footer .gnb-list li:nth-child(2){
+    font-weight: bold;
+}
+.footer .link-area .sns-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.footer .sns-list a{
+    display: block;
+    width: 24px;height: 24px;
+    background: url('../images/sns-bg2.png')no-repeat 0 0;
+}
+.footer .sns-list a.fb{
+    background-position: -25px 0;
+}
+.footer .sns-list a.tw{
+    background-position: -50px 0;
+}
+.footer .sns-list a.in{
+    background-position: -75px 0;
+}
+.footer .sns-list a.ka{
+    background-position: -100px 0;
+}
+.footer .sns-list a.yo{
+    background-position: -125px 0;
+}
+.footer .sns-list a.bl{
+    background-position: -150px 0;
+}
+.footer .info-area{
+    display: flex;
+    padding: 22px 0;
+    border-top: 1px solid #ccc;
+}
+.footer .info-area .cs-box{
+    width: 108px;height: 45px;
+    background-position: -180px 0;
+    background: url('../images/sp-bg.png')no-repeat -180px 0;
+    margin-right: 40px;
+}
+.footer .info-area .adr-box{
+    color: #636363;
+    font-size: 12px;
+}
+.footer .info-area .adr-box .adr{
+    display: flex;
+    gap: 3px;
+}
+.footer .info-area .adr-box .adr span{
+    font-size: 11px;
+}
+.footer .info-area .adr-box p{
+    margin-bottom: 2px;
+}
+.footer .info-area .mark-box{
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.scrollTop{
+    display: block;
+    width: 34px;height: 34px;
+    position: fixed;
+    left: 50%;
+    bottom: -100px;
+    opacity: 0;
+    margin-left: 600px;
+    transition: 1s;
+}
+.scrollTop.on{
+    bottom: 98px;
+    opacity: 1;
+}

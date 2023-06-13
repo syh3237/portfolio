@@ -1,0 +1,315 @@
+/* .wrap{
+    position: relative;
+    z-index: 20;
+} */
+
+/* container */
+
+.container{
+    min-height: 550px;
+}
+.section1{
+    height: 100vh;
+    color: #fff;
+}
+.section1 video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 1;
+    visibility: visible;
+}
+.section1 .text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 100px 52px;
+    font-family: var(--font-en);
+    color: #111;
+}
+.section1 .text-area h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    max-width: 550px;
+    line-height: 72px;
+}
+.section1 .text-area span{
+    font-size: 14px;
+    line-height: 17px;
+}
+.section1 .main-btn{
+    padding-top: 36px;
+}
+.section1 .main-btn button{
+    border: 1px solid #111;
+    color: #111;
+    display: inline-block;
+    height: 52px;
+    padding: 0 30px;
+    transition: .3s;
+    font-weight: bold;
+}
+.section1 .play-btn{
+    position: absolute;
+    right: 52px;
+    bottom: 25px;
+    font-size: 14px;
+}
+.section1 .main-btn button:hover{
+    background: #111;
+    color: #fff;
+}
+.section1 .play-btn a{
+    transition: .3s;
+}
+.section1 .play-btn a::after{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 4px 0 4px 5px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    transform: translateY(-45%);
+    transition: border-color .4s;
+    width: 0;
+}
+/* .container .main-btn button:hover{
+    color: #f5b6cd;
+} */
+
+/* section2 */
+
+.section2{
+    padding: 210px 0 0;
+    min-height: 100vh;
+}
+.section2 .title{
+    font-size: 35px;
+    line-height: 38px;
+    color: #111;
+    flex-basis: 100%;
+    text-align-last: center;
+    margin-bottom: 240px;
+}
+.section2 .left-area{
+    flex-basis: 58.3333%;
+    min-width: 58.3333%;
+    height: 1380px;
+}
+.section2 .left-area>div{
+    position: relative;
+    margin-left: -52px;
+    height: 100%;
+}
+.section2 .left-area img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;top: 0;
+    object-fit: cover;
+}
+.section2 .intro-text{
+    max-width: 300px;
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 127px;
+    font-weight: 700;
+    word-break: keep-all;
+}
+.section2 .move-img{
+    width: 76%;
+}
+.section2 .right-area{
+    flex-basis: 33.3333%;
+    min-width: 33.3333%;
+    margin-left: 8.3333%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.section2 .right-area .col-move{
+    padding-top: 400px;
+    position: absolute;
+}
+.section2 .bottom-area{
+    margin-left: 25%;
+    flex-basis: 50%;
+    max-width: 50%;
+    height: 100vh;
+}
+.section2 .bottom-area img{
+    height: auto;
+    margin-top: 290px;
+    width: 100%;
+}
+
+.section2 .canvas{
+    z-index: 10;
+    margin: 0 auto;
+}
+
+/* section3 */
+
+.section3{
+    position: relative;
+    height: 100vh;
+}
+.section3 .bg-area{
+    background-image: linear-gradient(180deg,#d6cbc0,#968e84);
+    height: 100%;
+    top: 0;left: 0;
+}
+.section3 .text-area{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section3 .title{
+    font-size: 35px;
+    line-height: 35px;
+}
+.section3 .text-area>span{
+    display: block;
+    margin-top: 24px;
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.section3 .more-btn{
+    margin-top: 72px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.section3 .more-btn span{
+    position: relative;
+}
+.section3 .more-btn span::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background: #1c1c1c;
+    height: 1px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+/* section4 */
+
+.section4{
+    min-height: 100vh;
+}
+.section4 .title-area{
+    padding: 130px 0 72px;
+}
+.section4 .title{
+    font-size: 53px;
+    line-height: 55px;
+}
+.section4 .title-area span{
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.section4 .grid-area{
+    height: 1000px;
+}
+.section4 .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+}
+.section4 .intro-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+}
+.section4 .img-item{
+    width: 100%;
+    overflow: hidden;
+}
+.section4 .img-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+}
+.section4 .intro-item .img{
+    width: 100%;height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+}
+.section4 .intro-item .img img{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.section4 .intro-item .img img{
+    top: -195px;
+}
+.grid-area:hover .img-box img{
+    transform: scale(110%);
+}
+.section4 .intro-info{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .intro-info .name{
+    font-size: 35px;
+    line-height: 38px;
+    color:#111;
+}
+.section4 .intro-info .price{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111;
+}
+.section4 .more-btn{
+    margin-top: 35px;
+}
+.section4 .img-box{
+    overflow: hidden;
+    height: 100%;
+}
+.section4 .order{
+    order: 1;
+}
+.deco-scroll{
+    display: flex;
+    overflow: hidden;
+}
+.deco-scroll ul{
+    display: flex;
+    gap: 50px;
+}
+.deco-scroll ul li{
+    padding: 10px 0;
+    display: flex;
+}
+.deco-scroll svg{
+    width: 80vw;
+}

@@ -1,0 +1,49 @@
+/* sc-main_visual */
+
+.main-visual .swiper-wrapper{
+    padding: 0;
+}
+
+/* sc-time_sale */
+
+.swiper {
+    width: 100%;
+}
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination{
+    display: none;
+}
+
+/* dlv-banner */
+
+.event-banner2,
+.event-banner3{
+    padding: 0 15px;
+}
+.banner2,
+.banner3{
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.banner2 .swiper-wrapper,
+.banner3 .swiper-wrapper{
+    padding: 0;
+}

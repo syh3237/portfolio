@@ -1,0 +1,20 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.gnb .gnb-item a .icon-mentor::after,
+.gnb .gnb-item a .icon-career::after,
+.gnb .gnb-item a .icon-saramin::after{
+    content: 'NEW';
+    display: block;
+    background: #ebfffc;
+    color: #11be9a;
+    position: absolute;
+    top: -1px;left: -1px;
+    font-size: 10px;
+    border-radius: 4px;
+}

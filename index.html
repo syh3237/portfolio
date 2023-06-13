@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="loading">
+        <span class="circle">PORTFOLIO</span>
+    </div>
+    <div class="wrap" id="top">
+        <header class="header">
+            <h1 class="logo"><a href="#top">son young hun</a></h1>
+            <nav class="gnb"><a href="">menu</a></nav>
+        </header>
+
+        <section class="menu">
+            <div class="inner">
+                <div class="menu-area">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="#works">projects</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#about">about</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-area">
+                    <address class="address">
+                        <div class="adr">
+                            <h3 class="subt">EMAIL</h3>
+                            <a href="">syh3237@gmail.com</a>
+                        </div>
+                        <div class="social">
+                            <h3 class="subt">SOCIAL</h3>
+                            <div class="sc-wrap">
+                                <a href="https://velog.io/@syh3237" target="_blank">VELOG</a>
+                                <a href="https://github.com/syh3237" target="_blank">GITHUB</a>
+                            </div>
+                        </div>
+                    </address>
+                </div>
+            </div>
+        </section>
+        
+        <main class="main">
+            <section class="main-visual">
+                <div class="sticky-wrap">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <div class="line line1">web</div>
+                            <div class="line line2">publisher</div>
+                            <div class="line line3">mark up</div>
+                            <div class="line line4">developer</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="intro">
+                <div class="all-project">
+                    <ul class="pj-list">
+                        <li class="pj-item">
+                            <a href="#gentle">
+                                <span>Gentle monster</span>
+                                <img src="./assets/images/gentlemonster.webp" alt>
+                            </a>
+                        </li>
+                        <li class="pj-item">
+                            <a href="#naver">
+                                <span>Naver</span>
+                                <img src="./assets/images/naver.jpg" alt>
+                            </a>
+                        </li>
+                        <li class="pj-item">
+                            <a href="#rank">
+                                <span>ranking dak.com</span>
+                                <img src="./assets/images/ranking.png" alt>
+                            </a>
+                        </li>
+                        <li class="pj-item">
+                            <a href="#grm">
+                                <span>Gooroomee</span>
+                                <img src="./assets/images/gooroomee.png" alt>
+                            </a>
+                        </li>
+                        <li class="pj-item">
+                            <a href="#saram">
+                                <span>saramin</span>
+                                <img src="./assets/images/saramin.png" alt>
+                            </a>
+                        </li>
+                        <li class="pj-item">
+                            <a href="#seoul">
+                                <span>seoul city hall</span>
+                                <img src="./assets/images/seoul.jpg" alt>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="intro-text">
+                    <div class="line"></div>
+                    <div class="col-left">
+                        <span class="row row1" data-x="0.1">한 달 동안</span>
+                        <span class="row row2" data-x="0.2">작업한</span>
+                        <span class="row row3" data-x="0.3">프로젝트를</span>
+                        <span class="row row4" data-x="0.4">소개합니다</span>
+                    </div>
+                    <div class="col-right">
+                        <!-- <p data-x2="0.5">리뉴얼과 클론코딩으로 작업한 프로젝트입니다. 웹표준과 접근성을 준수하며 다양하고 역동적인 효과를 인터랙티브하게 표현하는데에 집중했습니다.</p> -->
+                        <p>
+                            <span data-x2="0.5">웹표준과</span>
+                            <span data-x2="0.6">접근성을</span>
+                            <span data-x2="0.7">준수하며</span>
+                            <span data-x2="0.8">역동적인</span>
+                            <span data-x2="0.9">효과를</span>
+                            <span data-x2="1">인터랙티브하게</span> 
+                            <span data-x2="1.1">표한합니다</span>
+                        </p>
+
+                    </div>
+                    <button class="btn-pj">All project</button>
+                </div>
+
+            </section>
+
+            <section class="works" id="works">
+
+                <div class="sticky-wrap works1" id="gentle">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/gentlemonster.webp" alt="젠틀몬스터">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/GENTLE MONSTER/index.html" target="_blank">gentle monster</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                젠틀몬스터를 리뉴얼한 웹사이트입니다.<br>다양한 레퍼런스를 참고하여 새로운 레이아웃으로 구성했고 디자인보다 활용할 수 있는 효과를 중심으로 웹사이트를 구현했습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:3일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#RENEWAL</span>
+                                <span>#GSAP</span>
+                                <span>#SWIPER</span>
+                                <span>#JQUERY</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/GENTLE MONSTER/index.html" class="link-go btn10" target="_blank"><span>GO PROJECT</span></a>
+                                <a href="https://velog.io/@syh3237/GENTLE-MONSTER" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Gentle monster-->
+                <div class="sticky-wrap works2" id="naver">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/naver.jpg" alt="네이버">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/NAVER/index.html" target="_blank">naver</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                네이버 공식 홈페이지를 클론코딩한 웹사이트입니다.<br>규칙적인 마크업과 클래스명을 중점적으로 참고하여 반복되는 레이아웃을 어렵지않게 구현할 수 있었습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:2일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#HTML</span>
+                                <span>#MARK UP</span>
+                                <span>#웹표준</span>
+                                <span>#SEO최적화</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/NAVER/index.html" class="link-go" target="_blank">GO PROJECT</a>
+                                <a href="https://velog.io/@syh3237/NAVER" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--naver-->
+                <div class="sticky-wrap works3" id="rank">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/ranking.png" alt="랭킹닭컴">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/RANKING/index.html" target="_blank">RANKING DAK.COM</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                랭킹닭컴 모바일 페이지를 클론코딩한 사이트입니다.<br>스와이퍼의 활용과 gsap등 시각적으로 표현할 수 있는 효과를 구현했고, json을 통해 데이터 활용을 중점적으로 작업했습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:2일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#GSAP </span>
+                                <span>#SWIPER </span>
+                                <span>#JSON</span>
+                                <span>#JQUERY</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/RANKING/index.html" class="link-go" target="_blank">GO PROJECT</a>
+                                <a href="https://velog.io/@syh3237/%EB%9E%AD%ED%82%B9%EB%8B%AD%EC%BB%B4" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--랭킹닭컴-->
+                <div class="sticky-wrap works4" id="saram">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/saramin.png" alt="사람인">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/SARAMIN/index.html" target="_blank">SARAMIN</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                사람인 모바일 페이지를 클론코딩한 웹사이트입니다.<br>스와이퍼의 활용과 gsap등 시각적으로 표현할 수 있는 효과를 구현했습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:2일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#GSAP</span>
+                                <span>#SWIPER</span>
+                                <span>#JQUERY</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/SARAMIN/index.html" class="link-go" target="_blank">GO PROJECT</a>
+                                <a href="https://velog.io/@syh3237/%EC%82%AC%EB%9E%8C%EC%9D%B8" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--사람인-->
+                <div class="sticky-wrap works5" id="grm">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/gooroomee.png" alt="구루미비즈">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/GOOROOMEE/index.html" target="_blank">GOOROOMEE</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                구루미비즈 사이트를 클론코딩한 반응형 웹사이트입니다.<br>swiper와 gsap의 활용을 모바일과 태블릿,PC등 각 화면에 대응할 수 있는 반응형 웹사이트를 중점적으로 작업했습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:5일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#GSAP </span>
+                                <span>#SWIPER </span>
+                                <span>#JQUERY</span>
+                                <span>#RESPONSIVE WEB</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/GOOROOMEE/index.html" class="link-go" target="_blank">GO PROJECT</a>
+                                <a href="https://velog.io/@syh3237/GOOROOMEE-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--구루미비즈-->
+                <div class="sticky-wrap works6" id="seoul">
+                    <div class="sticky">
+                        <div class="sticky-circle">
+                            <img src="./assets/images/seoul.jpg" alt="서울시청">
+                        </div>
+                        <div class="text-wrap">
+                            <em class="work-item"><a href="./project/SEOUL/index.html" target="_blank">SEOUL CITY HALL</a></em>
+                        </div>
+                        <div class="inner">
+                            <p class="desc" data-x3="0.1">
+                                서울시청 홈페이지를 클론코딩한 웹사이트입니다.<br>웹표준과 접근성에 맞는 코드를위해 의미있는 태그를 사용에 중점적으로 작업했고, 시각장애인을 위한 tab키 활용을 구현하였습니다.
+                            </p>
+                            <p class="info" data-x3="0.2">제작기간:2일</p>
+                            <p class="info2" data-x3="0.3">
+                                <span>#SCSS </span>
+                                <span>#GSAP </span>
+                                <span>#SWIPER </span>
+                                <span>#RESPONSIVE WEB</span>
+                            </p>
+                            <div class="link-box" data-x3="0.4">
+                                <a href="./project/SEOUL/index.html" class="link-go" target="_blank">GO PROJECT</a>
+                                <a href="https://velog.io/@syh3237/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%B2%AD" class="link-go" target="_blank">PROJECT LOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--서울시청-->
+            </section>
+
+            <section class="about" id="about">
+                <h2 class="blind">프로젝트 안내사항</h2>
+
+                <div class="about-wrap">
+                    <ul class="about-list">
+                        <li class="about-item btn3">
+                            <h3 class="sub-title">Mark up</h3>
+                            <div class="hover">
+                                <p>웹표준과 접근성의 중요성을 이해하고 SEO최적화를 위해 간결하고 의미있는 태그를 사용하기위해 노력합니다.</p>
+                            </div>
+                        </li>
+                        <li class="about-item">
+                            <h3 class="sub-title">Css</h3>
+                            <div class="hover">
+                                <p>기본 태그 속성의 기능을 이해하고 불필요한 코드는 최소화하며 최신트렌드나 scss의 활용을 통해 디자이너와 개발자의 소통을 중요시합니다.</p>
+                            </div>
+                        </li>
+                        <li class="about-item">
+                            <h3 class="sub-title">interactiion</h3>
+                            <div class="hover">
+                                <p>동적인 웹사이트 구현을 위해 Javascript의 기본기를 익히고 Front-end 개발자와의 협력을 위해 새로운 언어와 기술을 받아드리겠습니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <footer class="footer" id="contact">
+
+                <div class="footer-wrap">
+                    <div class="contact-area">
+                        <div class="mail">
+                            <span>CONTACT ME!</span>
+                            <span class="adr-mail">syh3237@gmail.com</span>
+                        </div>
+                        <div class="contact">
+                            <div class="social">
+                                <em>SOCIAL</em>
+                                <span><a href="https://velog.io/@syh3237" target="_blank">GITHUB</a></span>
+                                <span><a href="https://github.com/syh3237" target="_blank">VELOG</a></span>
+                            </div>
+                            <div class="address">
+                                <em>ADDRESS</em>
+                                <span>서울시 노원구 공릉동</span>
+                            </div>
+                            <div class="number">
+                                <em>NUMBER</em>
+                                <span>010-8326-2757</span>
+                            </div>
+                        </div>
+                        <span class="copy">© 2023 All rights reserved.</span>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

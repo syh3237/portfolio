@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'TWKL';
+    src: url(../fonts/TWKLausanne-700.woff) format('woff');
+    font-weight: 700;   
+}
+@font-face{
+    font-family: 'apercu';
+    src: url(../fonts/apercu-regular-pro.woff2) format('woff');
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'apercu';
+    src: url(../fonts/apercu-medium-pro.woff2) format('woff');
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'apercu';
+    src: url(../fonts/apercu-bold-pro.woff2) format('woff');
+    font-weight: 700;
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사람인-메뉴</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="return-area">
+                <a href="../index.html" class="prev-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 4L3 11.5512L10 19" stroke="currentColor" stroke-width="1.5"></path>
+                    </svg>
+                    <span class="blind">뒤로가기 버튼</span>
+                </a>
+                <span>전체 메뉴</span>
+            </div>
+            <div class="set-area">
+                <span class="alarm">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                            <path d="M14.7206 19.5C14.7206 21.0294 13.4808 22.2692 11.9514 22.2692C10.422 22.2692 9.18213 21.0294 9.18213 19.5"></path>
+                            <path d="M11.9512 2.73077C15.9598 2.73077 18.4441 5.75068 18.4451 9.65412V10.3462C18.4451 12.6457 19.2635 15.0073 20.8723 17.4235C20.9101 17.4804 20.9303 17.5471 20.9303 17.6154C20.9303 17.8066 20.7754 17.9615 20.5842 17.9615H3.34615C3.27703 17.9615 3.2095 17.9409 3.15225 17.9021C2.99391 17.795 2.95235 17.5798 3.05945 17.4215C4.69237 15.0071 5.52315 12.6461 5.5226 10.3459L5.5226 9.65385C5.5226 5.66403 7.92528 2.73077 11.9512 2.73077Z"></path>
+                            <path d="M11.9653 2.38462V1"></path>
+                        </g>
+                    </svg>
+                    <span class="blind">알림설정</span>
+                </span>
+                <span class="settin">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2912 13.8498C22.7122 13.7216 23 13.3332 23 12.8931V11.1075C23 10.6675 22.7124 10.2792 22.2915 10.151L20.575 9.62796C20.2583 9.53147 20.0139 9.28287 19.8941 8.97423C19.8399 8.8345 19.7819 8.69663 19.7205 8.56056C19.5843 8.25912 19.5819 7.91089 19.7376 7.61909L20.5849 6.03122C20.7922 5.64278 20.721 5.16448 20.4096 4.85322L19.1466 3.59066C18.8354 3.27959 18.3574 3.20847 17.9692 3.41546L16.38 4.26266C16.0882 4.4182 15.7401 4.4157 15.4387 4.27965C15.3028 4.21826 15.1648 4.16023 15.025 4.10598C14.7163 3.98616 14.4677 3.74165 14.3713 3.42484L13.8489 1.7088C13.7208 1.28776 13.3324 1 12.8922 1H11.1075C10.6675 1 10.2792 1.28763 10.151 1.70854L9.62766 3.42606C9.53134 3.74219 9.28345 3.98637 8.97539 4.10602C8.83499 4.16055 8.69646 4.21883 8.55975 4.2805C8.25884 4.41625 7.91132 4.41837 7.62004 4.26305L6.03101 3.41566C5.64266 3.20857 5.16457 3.27972 4.85336 3.59093L3.59093 4.85336C3.27972 5.16457 3.20857 5.64266 3.41566 6.03101L4.26305 7.62004C4.41837 7.91132 4.41626 8.25885 4.2803 8.55965C4.21847 8.69644 4.16001 8.83504 4.10534 8.97552C3.98548 9.28347 3.74134 9.53134 3.42524 9.62768L1.70846 10.1509C1.28759 10.2792 1 10.6675 1 11.1075V12.8932C1 13.3333 1.28772 13.7216 1.70872 13.8498L3.42535 14.3725C3.74139 14.4687 3.98557 14.7164 4.10536 15.0243C4.15982 15.1643 4.21804 15.3025 4.27961 15.4388C4.41574 15.7401 4.4182 16.0882 4.26266 16.38L3.41546 17.9692C3.20847 18.3574 3.27959 18.8354 3.59066 19.1466L4.85322 20.4096C5.16448 20.721 5.64278 20.7922 6.03122 20.5849L7.61909 19.7376C7.91089 19.5819 8.25912 19.5843 8.56056 19.7205C8.69663 19.7819 8.8345 19.8399 8.97423 19.8941C9.28287 20.0139 9.53147 20.2583 9.62796 20.575L10.151 22.2915C10.2792 22.7124 10.6675 23 11.1075 23H12.8922C13.3324 23 13.7208 22.7122 13.8489 22.2912L14.3713 20.5752C14.4677 20.2584 14.7163 20.0139 15.0251 19.8942C15.1646 19.8402 15.3022 19.7824 15.4378 19.7211C15.7398 19.5849 16.0886 19.5821 16.3809 19.738L17.9689 20.5851C18.3573 20.7923 18.8355 20.7211 19.1467 20.4099L20.4099 19.1467C20.7211 18.8355 20.7923 18.3573 20.5851 17.969L19.738 16.3809C19.5821 16.0886 19.5849 15.7398 19.7212 15.4378C19.7823 15.3023 19.8401 15.1649 19.8941 15.0256C20.0138 14.717 20.2582 14.4686 20.5748 14.3722L22.2912 13.8498Z"></path>
+                            <path d="M15.25 11.9994C15.25 13.7959 13.795 15.25 12 15.25C10.205 15.25 8.75 13.7959 8.75 11.9994C8.75 10.2042 10.2048 8.75 12 8.75C13.7952 8.75 15.25 10.2042 15.25 11.9994Z"></path>
+                        </g>
+                    </svg>
+                    <span class="blind">환경설정</span>
+                </span>
+            </div>
+        </header>
+
+        <div class="banner">
+            <img src="./assets/images/ad-banner2.png" alt="익명으로 직장 경험 공유하는 멘토 활동">
+        </div>
+
+        <div class="inner">
+
+            <nav class="gnb">
+                <h2 class="title">스킬 UP, 고민이라면 지금</h2>
+                <ul class="gnb-list">
+                    <li class="gnb-item">
+                        <a href="">
+                            <span class="icon icon-mentor"></span>
+                            <span class="text">멘토링매치</span>
+                        </a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="">
+                            <span class="icon icon-career"></span>
+                            <span class="text">커리어챗</span>
+                        </a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="">
+                            <span class="icon icon-position"></span>
+                            <span class="text">포지션매치</span>
+                        </a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="">
+                            <span class="icon icon-saramin"></span>
+                            <span class="text">사람인 카페</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="group-menu">
+                <div class="side-area">
+                    <ul class="side-list">
+                        <li class="side-item">
+                            <a href="#menu1" id="tab1" class="on">
+                                <i class="side1-icon"><svg><use xlink:href="#ico_menu_recruit"></use></svg></i>
+                                <span>채용정보</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu2" id="tab2">
+                                <i class="side2-icon"><svg><use xlink:href="#ico_menu_group-job"></use></svg></i>
+                                <span>신입·인턴</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu3" id="tab3">
+                                <i class="side3-icon"><svg><use xlink:href="#ico_menu_my"></use></svg></i>
+                                <span>개인MY</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu4" id="tab4">
+                                <i class="side4-icon"><svg><use xlink:href="#ico_menu_talent-pool"></use></svg></i>
+                                <span>포지션매치</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu5" id="tab5">
+                                <i class="side5-icon"><svg><use xlink:href="#ico_menu_company"></use></svg></i>
+                                <span>기업·연봉</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu6" id="tab6">
+                                <i class="side6-icon"><svg><use xlink:href="#ico_menu_career"></use></svg></i>
+                                <span>커리어성장</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#menu7" id="tab7">
+                                <i class="side7-icon"><svg><use xlink:href="#ico_menu_info"></use></svg></i>
+                                <span>고객센터</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="detail-area">
+                    <div class="detail-menu menu1" id="menu1">
+                        <h3 class="sub-title"><a href="">채용정보</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">지역별</a></li>
+                            <li class="detail-item"><a href="">직업별</a></li>
+                            <li class="detail-item"><a href="">Ai매치<span class="rec">추천</span></a></li>
+                            <li class="detail-item"><a href="">HOT100</a></li>
+                            <li class="detail-item"><a href="">취업축하금</a></li>
+                            <li class="detail-item"><a href="">IT프리랜서</a></li>
+                            <li class="detail-item"><a href="">채용관</a></li>
+                            <li class="detail-item"><a href="">헤드헌팅</a></li>
+                            <li class="detail-item"><a href="">파견·대행</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-menu menu2" id="menu2">
+                        <h3 class="sub-title"><a href="">신입·인턴 홈</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">실시간 공고<span class="ren">리뉴얼</span></a></li>
+                            <li class="detail-item"><a href="">그룹사별 채용</a></li>
+                            <li class="detail-item"><a href="">채용달력</a></li>
+                            <li class="detail-item"><a href="">채용설명회</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-menu menu3" id="menu3">
+                        <h3 class="sub-title"><a href="">개인MY 홈</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">이력서</a></li>
+                            <li class="detail-item"><a href="">받은 제안</a></li>
+                            <li class="detail-item"><a href="">입사지원 관리</a></li>
+                            <li class="detail-item"><a href="">최근 본</a></li>
+                            <li class="detail-item"><a href="">스크랩</a></li>
+                            <li class="detail-item"><a href="">관심기업</a></li>
+                            <li class="detail-item"><a href="">인적성검사</a></li>
+                            <li class="detail-item"><a href="">커리어 마일리지</a></li>
+                            <li class="detail-item"><a href="">설정</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-menu menu4" id="menu4">
+                        <h3 class="sub-title"><a href="">포지션매치 홈</a></h3>
+                    </div>
+                    <div class="detail-menu menu5" id="menu5">
+                        <h3 class="sub-title"><a href="">기업·연봉 홈</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">연봉정보</a></li>
+                            <li class="detail-item"><a href="">기업리뷰</a></li>
+                            <li class="detail-item"><a href="">면접후기</a></li>
+                            <li class="detail-item"><a href="">이직로드맵</a></li>
+                            <li class="detail-item"><a href="">현직자 인터뷰</a></li>
+                            <li class="detail-item"><a href="">직장 in 생활백서</a></li>
+                            <li class="detail-item"><a href="">취업계산기</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-menu menu6" id="menu6">
+                        <h3 class="sub-title"><a href="">커리어성장 홈</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">커리어팁</a></li>
+                            <li class="detail-item"><a href="">멘토링 매치<span class="new">new</span></a></li>
+                            <li class="detail-item"><a href="">커리어챗<span class="new">new</span></a></li>
+                            <li class="detail-item"><a href="">사람인 카페<span class="new">new</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-menu menu7" id="menu7">
+                        <h3 class="sub-title"><a href="">고객센터 홈</a></h3>
+                        <ul class="detail-list">
+                            <li class="detail-item"><a href="">도움말</a></li>
+                            <li class="detail-item"><a href="">공지사항</a></li>
+                            <li class="detail-item"><a href="">이벤트</a></li>
+                            <li class="detail-item"><a href="">취업뉴스</a></li>
+                            <li class="detail-item"><a href="">이메일 문의</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="service-banner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <em>서비스안내</em>
+                            <p>이력서,이제 모바일에서 쉽고 간편하게 쓰자!</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <em>서비스안내</em>
+                            <p>지금, 좋아하는 일을 하고 있나요? - 프리랜서 사람인 긱</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="foot-title">
+                사람인과 당양한<br>
+                서비스를 만나 보세요!
+            </div>
+            <ul class="app-list">
+                <li class="app-item">
+                    <a href="">
+                        <i class="app-saramin"></i>
+                        <span>사람인 앱</span>
+                    </a>
+                </li>
+                <li class="app-item">
+                    <a href="">
+                        <i class="app-pay"></i>
+                        <span>연봉계산기</span>
+                    </a>
+                </li>
+                <li class="app-item">
+                    <a href="">
+                        <i class="app-iam"></i>
+                        <span>아이엠그라운드 더 레디</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="login-area">
+                <button class="login-btn">로그인</button>
+            </div>
+        </footer>
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+            <svg id="ico_menu_my" width="24" height="24" viewBox="0 0 24 24">
+                <path opacity=".01" fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v24H0V0z" fill="#fff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm8-9a9 9 0 1 0 0 18 9 9 0 0 0 0-18z" fill="currentColor"/>
+                <path d="M8.5 9.295a.75.75 0 0 1 1.5 0 .75.75 0 0 1-1.5 0zM14 9.295a.75.75 0 0 1 1.5 0 .75.75 0 0 1-1.5 0z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M10.43 12.667a.5.5 0 0 0-.953.3l.477-.149-.477.15v.001l.001.003.003.006.007.02a3.181 3.181 0 0 0 .118.287c.083.179.213.418.402.659.378.484 1.02 1.01 1.992 1.01.97 0 1.613-.526 1.992-1.01a3.472 3.472 0 0 0 .52-.945l.007-.02.002-.007v-.003l.001-.001-.477-.15.477.15a.5.5 0 0 0-.954-.3v-.001m0 0-.002.007-.013.037a2.474 2.474 0 0 1-.349.617c-.261.334-.641.626-1.204.626s-.944-.292-1.204-.626a2.48 2.48 0 0 1-.363-.654l-.002-.007"
+                      fill="currentColor"/>
+            </svg>
+            <svg id="ico_menu_mycompany" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path opacity="0.01" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V24H0V0Z" fill="fff"/>
+                <g clip-path="url(#clip0_452_1152)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M15.5 5.5H8.5C7.94772 5.5 7.5 5.94772 7.5 6.5V17.5C7.5 18.0523 7.94772 18.5 8.5 18.5H15.5C16.0523 18.5 16.5 18.0523 16.5 17.5V6.5C16.5 5.94772 16.0523 5.5 15.5 5.5ZM8.5 4.5C7.39543 4.5 6.5 5.39543 6.5 6.5V17.5C6.5 18.6046 7.39543 19.5 8.5 19.5H15.5C16.6046 19.5 17.5 18.6046 17.5 17.5V6.5C17.5 5.39543 16.6046 4.5 15.5 4.5H8.5Z"
+                          fill="currentColor"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.1056 7.72511C11.0652 7.47753 10.8504 7.28857 10.5914 7.28857C10.3036 7.28857 10.0703 7.52186 10.0703 7.80963V8.085L10.0771 8.16952C10.1175 8.4171 10.3324 8.60606 10.5914 8.60606C10.8791 8.60606 11.1124 8.37277 11.1124 8.085V7.80963L11.1056 7.72511ZM11.1056 10.4072C11.0652 10.1596 10.8504 9.97067 10.5914 9.97067C10.3036 9.97067 10.0703 10.2039 10.0703 10.4917V10.7671L10.0771 10.8516C10.1175 11.0992 10.3324 11.2881 10.5914 11.2881C10.8791 11.2881 11.1124 11.0549 11.1124 10.7671V10.4917L11.1056 10.4072ZM13.2242 7.28857C13.4832 7.28857 13.698 7.47753 13.7384 7.72511L13.7452 7.80963V8.085C13.7452 8.37277 13.5119 8.60606 13.2242 8.60606C12.9652 8.60606 12.7503 8.4171 12.7099 8.16952L12.7031 8.085V7.80963C12.7031 7.52186 12.9364 7.28857 13.2242 7.28857ZM13.7384 10.4072C13.698 10.1596 13.4832 9.97067 13.2242 9.97067C12.9364 9.97067 12.7031 10.2039 12.7031 10.4917V10.7671L12.7099 10.8516C12.7503 11.0992 12.9652 11.2881 13.2242 11.2881C13.5119 11.2881 13.7452 11.0549 13.7452 10.7671V10.4917L13.7384 10.4072Z"
+                          fill="currentColor"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.2744 15.25C11.1363 15.25 11.0244 15.3619 11.0244 15.5V19.25H10.0244V15.5C10.0244 14.8096 10.5841 14.25 11.2744 14.25H12.7744C13.4648 14.25 14.0244 14.8096 14.0244 15.5V19.25H13.0244V15.5C13.0244 15.3619 12.9125 15.25 12.7744 15.25H11.2744Z"
+                          fill="currentColor"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_452_1152">
+                        <rect width="11" height="15" fill="white" transform="translate(6.5 4.5)"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg id="ico_menu_recruit" width="24" height="24" viewBox="0 0 24 24">
+                <path opacity=".01" fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v24H0V0z" fill="#fff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M5.255 4.543c-.555 0-1.005.45-1.005 1.005v11.29c0 .555.45 1.005 1.005 1.005h8.28a.5.5 0 1 1 0 1h-8.28a2.005 2.005 0 0 1-2.005-2.005V5.548c0-1.107.898-2.005 2.005-2.005h5.637a1.5 1.5 0 0 1 1.027.406l3.147 2.953a1.5 1.5 0 0 1 .473 1.094V10.5h-1V7.996a.5.5 0 0 0-.157-.365l-3.148-2.953a.5.5 0 0 0-.342-.135H5.255z"
+                      fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M11.129 3.94a.5.5 0 0 1 .5.5v2.836h3.066a.5.5 0 0 1 0 1h-3.566a.5.5 0 0 1-.5-.5V4.441a.5.5 0 0 1 .5-.5zM11.697 14.238a3.409 3.409 0 1 0 6.818 0 3.409 3.409 0 0 0-6.818 0zm3.41-4.41a4.409 4.409 0 1 0 0 8.818 4.409 4.409 0 0 0 0-8.817z"
+                      fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="m17.701 17.419 2.472 2.471z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.348 17.065a.5.5 0 0 1 .707 0l2.471 2.472a.5.5 0 0 1-.707.707l-2.471-2.471a.5.5 0 0 1 0-.708z" fill="currentColor"/>
+            </svg>
+            <svg id="ico_menu_company" width="24" height="24" viewBox="0 0 24 24">
+                <path opacity=".01" fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v24H0V0z" fill="#fff"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.684 6.185a2.5 2.5 0 0 1 2.5-2.5h6.42a2.5 2.5 0 0 1 2.5 2.5V9.5h-1V6.185a1.5 1.5 0 0 0-1.5-1.5h-6.42a1.5 1.5 0 0 0-1.5 1.5v10.763a1.5 1.5 0 0 0 1.5 1.5h6.575c.743 0 1.346-.603 1.346-1.346h1a2.345 2.345 0 0 1-2.346 2.346H6.184a2.5 2.5 0 0 1-2.5-2.5V6.185z"
+                      fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.606 7.225a.521.521 0 0 0-1.036.085v.275l.007.085a.521.521 0 0 0 1.035-.085V7.31l-.006-.085zm0 2.682a.521.521 0 0 0-1.036.085v.275l.007.085a.521.521 0 0 0 1.035-.085v-.275l-.006-.085zm2.118-3.118c.26 0 .474.189.514.436l.007.085v.275a.521.521 0 0 1-1.035.085l-.007-.085V7.31c0-.288.233-.521.521-.521zm.514 3.118a.521.521 0 0 0-1.035.085v.275l.007.085a.521.521 0 0 0 1.035-.085v-.275l-.007-.085z"
+                      fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.696 13.37a3.409 3.409 0 1 0 6.818 0 3.409 3.409 0 0 0-6.818 0zm3.41-4.41a4.409 4.409 0 1 0 0 8.819 4.409 4.409 0 0 0 0-8.818z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M17.346 16.198a.5.5 0 0 1 .707 0l2.471 2.471a.5.5 0 1 1-.707.707l-2.471-2.471a.5.5 0 0 1 0-.707zM8.774 14.75a.25.25 0 0 0-.25.25v3.75h-1V15c0-.69.56-1.25 1.25-1.25h1.5c.69 0 1.25.56 1.25 1.25v3.75h-1V15a.25.25 0 0 0-.25-.25h-1.5z"
+                      fill="currentColor"/>
+            </svg>
+            <svg id="ico_menu_group-job" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.56412 2.01868C9.83711 1.97709 10.0921 2.16468 10.1337 2.43768L10.8288 6.99999H12.5484L11.8717 2.55816C11.8301 2.28517 12.0177 2.03015 12.2907 1.98856C12.5637 1.94697 12.8187 2.13456 12.8603 2.40756L13.1029 4H17C18.1046 4 19 4.89543 19 6V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V6C5 4.89543 5.89543 4 7 4H9.36019L9.14513 2.58828C9.10354 2.31529 9.29113 2.06027 9.56412 2.01868ZM13.5599 6.99999L13.2552 5H17C17.5523 5 18 5.44772 18 6V20C18 20.5523 17.5523 21 17 21H7C6.44772 21 6 20.5523 6 20V6C6 5.44772 6.44772 5 7 5H9.51253L9.81722 6.99999H9.5C9.22386 6.99999 9 7.22385 9 7.49999C9 7.77613 9.22386 7.99999 9.5 7.99999H14.5C14.7761 7.99999 15 7.77613 15 7.49999C15 7.22385 14.7761 6.99999 14.5 6.99999H13.5599ZM15.2112 2.02685C14.9395 1.97744 14.6793 2.15764 14.6298 2.42933L14.3442 3.99999H15.3606L15.6137 2.60823C15.6631 2.33655 15.4829 2.07625 15.2112 2.02685ZM14.0999 12.1C14.0999 12.8614 13.6947 13.5282 13.0881 13.8964C14.2634 14.3371 15.0999 15.4708 15.0999 16.8C15.0999 17.0761 14.876 17.3 14.5999 17.3C14.3238 17.3 14.0999 17.0761 14.0999 16.8C14.0999 15.6402 13.1597 14.7 11.9999 14.7C10.8401 14.7 9.8999 15.6402 9.8999 16.8C9.8999 17.0761 9.67604 17.3 9.3999 17.3C9.12376 17.3 8.8999 17.0761 8.8999 16.8C8.8999 15.4708 9.7364 14.3371 10.9117 13.8964C10.3051 13.5282 9.8999 12.8614 9.8999 12.1C9.8999 10.9402 10.8401 10 11.9999 10C13.1597 10 14.0999 10.9402 14.0999 12.1ZM11.9999 13.2C12.6074 13.2 13.0999 12.7075 13.0999 12.1C13.0999 11.4925 12.6074 11 11.9999 11C11.3924 11 10.8999 11.4925 10.8999 12.1C10.8999 12.7075 11.3924 13.2 11.9999 13.2Z" fill="currentColor"/>
+            </svg>
+            <svg id="ico_menu_talent-pool" width="25" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.46791 5C7.9308 5 7.39648 5.51125 7.39648 6.27142V13.5609L9.37985 15.1548L12.0565 13.0064C12.2394 12.8596 12.4996 12.8596 12.6825 13.0064L15.3815 15.1724L17.3965 13.5573V6.27142C17.3965 5.51125 16.8622 5 16.3251 5H8.46791ZM6.39648 9.52393V12.7572L5.14648 11.7526V10.5239C5.14648 9.97164 5.5942 9.52393 6.14648 9.52393H6.39648ZM6.39648 6.27142V8.52393H6.14648C5.04191 8.52393 4.14648 9.41936 4.14648 10.5239V18.4406C4.14648 19.5452 5.04191 20.4406 6.14648 20.4406H18.6465C19.7511 20.4406 20.6465 19.5452 20.6465 18.4406V10.5239C20.6465 9.41936 19.7511 8.52393 18.6465 8.52393H18.3965V6.27142C18.3965 5.07494 17.5237 4 16.3251 4H8.46791C7.26927 4 6.39648 5.07494 6.39648 6.27142ZM18.3965 12.7558V9.52393H18.6465C19.1988 9.52393 19.6465 9.97164 19.6465 10.5239V11.7539L18.3965 12.7558ZM8.58118 15.7959L5.14648 13.0355V18.4406C5.14648 18.4769 5.14842 18.5128 5.1522 18.5482L8.58118 15.7959ZM5.74332 19.356C5.86664 19.4104 6.00304 19.4406 6.14648 19.4406H18.6465C18.7766 19.4406 18.9009 19.4158 19.0149 19.3706L12.3695 14.0374L5.74332 19.356ZM19.6359 18.5867C19.6429 18.539 19.6465 18.4902 19.6465 18.4406V13.0355L16.1804 15.8136L19.6359 18.5867ZM9.64648 7.56551C9.37034 7.56551 9.14648 7.78936 9.14648 8.06551C9.14648 8.34165 9.37034 8.56551 9.64648 8.56551H13.2962C13.5724 8.56551 13.7962 8.34165 13.7962 8.06551C13.7962 7.78936 13.5724 7.56551 13.2962 7.56551H9.64648Z" fill="currentColor"/>
+            </svg>
+            <svg id="ico_menu_career" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17.4056 11.6639C17.4126 10.7651 17.1929 9.87907 16.7668 9.08766C16.3407 8.29625 15.722 7.62503 14.9679 7.13602C14.2137 6.64701 13.3485 6.35601 12.4521 6.2899C11.5557 6.2238 10.6571 6.38473 9.8394 6.75781C9.02167 7.1309 8.31119 7.70411 7.77363 8.42445C7.23606 9.14479 6.88876 9.98903 6.76382 10.8791C6.63889 11.7692 6.74035 12.6764 7.05882 13.5169C7.3773 14.3574 7.90252 15.1041 8.58593 15.6879L9.68839 18.4881H14.451L15.5535 15.6879C16.1352 15.1913 16.6021 14.5743 16.9219 13.8795C17.2417 13.1847 17.4067 12.4287 17.4056 11.6639V11.6639Z"/>
+                    <path d="M12.0586 4.15617V1.40002"/>
+                    <path d="M6.91027 5.23662L5.3999 3.164"/>
+                    <path d="M17.207 5.23662L18.7174 3.164"/>
+                    <path d="M12.0586 18.4882V11.8073"/>
+                    <path d="M10.1187 11.8073H13.9993"/>
+                    <path d="M10.1958 20.7482H13.9221"/>
+                    <path d="M10.4824 22.92H13.6355"/>
+                </g>
+            </svg>
+            <svg id="ico_menu_info" width="24" height="24" viewBox="0 0 24 24">
+                <path opacity=".01" fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v24H0V0z" fill="#fff"/>
+                <path d="M12 2.5a6.5 6.5 0 0 1 6.496 6.267L18.5 9h-1a5.5 5.5 0 0 0-10.996-.221L6.5 9h-1A6.5 6.5 0 0 1 12 2.5z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6 17.5a4.5 4.5 0 1 1 0-9 .5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5zm-.568-7.954a3.501 3.501 0 0 0-2.927 3.262L2.5 13c0 1.74 1.27 3.183 2.932 3.454l.067.009V9.537l-.067.009zM18 17.5a4.5 4.5 0 1 0 0-9 .5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5zm.568-7.954a3.501 3.501 0 0 1 2.927 3.262L21.5 13a3.5 3.5 0 0 1-2.932 3.454l-.067.01V9.537l.067.009z"
+                      fill="currentColor"/>
+                <path d="M18 16.5a.5.5 0 0 1 .5.5c0 2.321-1.671 3.5-4.752 3.5a.5.5 0 0 1 0-1c2.588 0 3.752-.821 3.752-2.5a.5.5 0 0 1 .5-.5z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14 20a2 2 0 1 0-4 0 2 2 0 0 0 4 0zm-3 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0z" fill="currentColor"/>
+            </svg>
+            <svg id="ico_search_service" width="16" height="16" viewBox="0 0 16 16">
+                <path opacity=".01" fill="#D8D8D8" d="M0 0h16v16H0z"/>
+                <rect x="3.5" y="3.5" width="7.818" height="7.818" rx="3.909" stroke="#B4C0D3" fill="#fff"/>
+                <path d="m10.003 10.59 2.472 2.472" stroke="#B4C0D3" stroke-linecap="round"/>
+            </svg>
+        </svg>
+    </div>
+</body>
+</html>

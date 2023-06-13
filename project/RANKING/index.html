@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랭킹닭컴</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        
+        <header class="header">
+            <div class="header-inner">
+                <h1 class="logo">
+                    <a href="">
+                        <i class="logo-icon"></i>
+                        <span class="blind">랭킹닭컴 로고</span>
+                    </a>
+                </h1>
+                <div class="search-area">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend class="blind">제품검색</legend>
+                            <input type="text">
+                            <button class="search">
+                                <span class="blind">검색</span>
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="my-menu">
+                    <a href="">
+                        <i class="cart-icon"></i>
+                        <span class="blind">장바구니</span>
+                    </a>
+                </div>
+            </div>
+            <nav class="gnb">
+                <ul class="gnb-list">
+                    <li class="list-item"><a href="">랭킹</a></li>
+                    <li class="list-item"><a href="">이달의 특가</a></li>
+                    <li class="list-item"><a href="">혜택정리</a></li>
+                    <li class="list-item"><a href="">1팩 담기</a></li>
+                    <li class="list-item"><a href="" class="text-icon"><span class="blind">특급배송</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="sc-main_visual">
+                <h2 class="blind">메인 슬라이드 영역</h2>
+                <div class="swiper main-visual">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/mainVisual1.jpg" alt="여기가 샐러드 맛집 신선함을 그대로"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/mainVisual2.jpg" alt="빨간맛 챌린지"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/mainVisual3.jpg" alt="한마음 세일"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/mainVisual4.jpg" alt="특급 배송"></a>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <span class="fraction"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sc-category">
+                <h2 class="blind">카테고리 영역</h2>
+
+                <ul class="category-area">
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic1"></i>
+                            <span>신상품</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic2"></i>
+                            <span>선물하기</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic3"></i>
+                            <span>닭가슴살</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic4"></i>
+                            <span>즉석 간편식</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic5"></i>
+                            <span>도시락·볶음밥</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic6"></i>
+                            <span>소고기</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic7"></i>
+                            <span>돼지·오리고기</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic8"></i>
+                            <span>닭안심살</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic9"></i>
+                            <span>샐러드·과일</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="">
+                            <i class="icon ic10"></i>
+                            <span>베이커리·치즈</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="more-btn">
+                    <a href="">더보기</a>
+                </div>
+            </section>
+
+            <div class="event-banner">
+                <div class="banner banner-bg">
+                    <a href=""><img src="./assets/images/event-banner2.jpg" alt="이벤트 혜택 모아보기"></a>
+                </div>
+                <div class="banner slide-bg">
+                    <a href=""><img src="./assets/images/event-banner1.jpg" alt="랭킹닭컴 캐시백"></a>
+                </div>
+            </div>
+
+            <section class="sc-time_sale">
+                <div class="title-area">
+                    <img src="./assets/images/timeSale-icon.png" alt="타
+                    임세일 아이콘" class="timeSale-icon">
+                    <h2 class="title">TIME SALE = ☆</h2>
+                    <a href="" class="more-btn">더보기</a>
+                </div>
+                <div class="swiper tsSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/time_sale-img1.jpg" alt="타임세일 특가 상품 이미지">
+                                </div>
+                                <div class="timer">
+                                    <span class="day">0일</span>
+                                    <span class="day">10</span>:
+                                    <span class="day">20</span>:
+                                    <span class="day">30</span>
+                                </div>
+                            </a>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="review">
+                                        <i class="rv-icon"><span class="blind">리뷰</span></i>
+                                        <span class="rv-n">5</span>
+                                        <span class="rv-a">(10)</span>
+                                    </div>
+                                    <p>☎TIME SALE☎ 1am 스파클링 12+12</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>62</strong>%
+                                        </span>
+                                        <span class="price"><em>13,400</em>원</span>
+                                        <span class="og-price"><span>300,240</span>원</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>      
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/time_sale-img2.jpg" alt="타임세일 특가 상품 이미지">
+                                </div>
+                                <div class="timer">
+                                    <span class="day">0일</span>
+                                    <span class="day">10</span>:
+                                    <span class="day">20</span>:
+                                    <span class="day">30</span>
+                                </div>
+                            </a>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="review">
+                                        <i class="rv-icon"><span class="blind">리뷰</span></i>
+                                        <span class="rv-n">5</span>
+                                        <span class="rv-a">(10)</span>
+                                    </div>
+                                    <p>☎TIME SALE☎ 러브잇 단백한 순간 6+6</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>62</strong>%
+                                        </span>
+                                        <span class="price"><em>8,200</em>원</span>
+                                        <span class="og-price"><span>21,480</span>원</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>      
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/time_sale-img3.jpg" alt="타임세일 특가 상품 이미지">
+                                </div>
+                                <div class="timer">
+                                    <span class="day">0일</span>
+                                    <span class="day">10</span>:
+                                    <span class="day">20</span>:
+                                    <span class="day">30</span>
+                                </div>
+                            </a>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="review">
+                                        <i class="rv-icon"><span class="blind">리뷰</span></i>
+                                        <span class="rv-n">5</span>
+                                        <span class="rv-a">(10)</span>
+                                    </div>
+                                    <p>[유통기한임박특가] 1am 알뜰곤약면 5+5</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>62</strong>%
+                                        </span>
+                                        <span class="price"><em>8,200</em>원</span>
+                                        <span class="og-price"><span>21,480</span>원</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>      
+                    </div>
+                </div> 
+            </section>
+
+            <section class="sc-recomm">
+                <div class="title-area">
+                    <h2 class="title">MD Pick! 추천 상품</h2>
+                </div>
+                <div class="swiper rcSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href=""><img src="./assets/images/sc-recomm1.jpg" alt="랭커 스팀 닭가슴살"></a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <p class="text-title">촉촉한 부드러움이 넘사벽✨</p>
+                                    <span>랭커 스팀 닭가슴살</span>
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href=""><img src="./assets/images/sc-recomm2.jpg" alt="BBQ 그릴 통 닭가슴살 혼합"></a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <p class="text-title">BBQ 그릴 통 닭가슴살 혼합</p>
+                                    <span>랭커 소스닭가슴살 스테이크</span>
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href=""><img src="./assets/images/sc-recomm3.jpg" alt="잇메이트 닭가슴살 스팀"></a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <p class="text-title">깜짝 놀랄만큼~촉촉한 식감</p>
+                                    <span>잇메이트 닭가슴살 스팀</span>
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href=""><img src="./assets/images/sc-recomm4.jpg" alt="소스 오븐구이"></a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <p class="text-title">식단모드 ON 최대 30% 할인</span>
+                                    <span>6월 한정 MD 패키지</p>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <section class="sc-theme">
+                <div class="title-area">
+                    <h2 class="title">테마별 추천 상품</h2>
+                </div>
+
+                <div class="swiper tab-nav tab-nav1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="" class="on">튜닝의 끝은 생닭가슴살</a></div>
+                        <div class="swiper-slide"><a href="">헬짱을 위한 PRO 닭가슴살</a></div>
+                        <div class="swiper-slide"><a href="">런치플레이션 대비하기</a></div>
+                        <div class="swiper-slide"><a href="">영양가-득 소고기</a></div>
+                        <div class="swiper-slide"><a href="">단백질 끝판왕 쉐이크</a></div>
+                    </div>
+                </div>
+
+                <div class="swiper tab-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="top-area">
+                                <li class="img-box">
+                                    <img src="https://file.rankingdak.com/image/RANK/BANNER/AR_IMG_3/20230601/IMG1685FKK595727390.jpg" alt="튜닝의 끝은 생닭가슴살">
+                                </li>
+                                <li class="text-box">
+                                    <em>바프 준비 얼마 안남았잖아요</em>
+                                    <p>지방은 줄이고 단백질만 쏙 섭취해요</p>
+                                </li>
+                            </ul>
+                            <ul class="bottom-area">
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684Rcw909384201_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">다향 IQF 닭가슴살 1kg X 1팩</span>
+                                            <span class="price"><strong>8,400</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684qmU911989711_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">하림 동물복지 IFF 냉동 생 닭가슴살 800g X 1팩</span>
+                                            <span class="price"><strong>22,500</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684ZPe910257720_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">테미즈 두메산골 냉동 생 닭가슴살 120g X 10팩</span>
+                                            <span class="price"><strong>18,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684zVB910541917_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">닭스몰 무항생제 1등급 냉동 생 닭가슴살 400g X 5팩</span>
+                                            <span class="price"><strong>31,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="top-area">
+                                <li class="img-box">
+                                    <img src="./assets/images/tab_img2.jpg" alt="헬짱을 위한 PRO 닭가슴살">
+                                </li>
+                                <li class="text-box">
+                                    <em>찐 식단러가 추천하는 프로 단백질</em>
+                                    <p>철저한 관리를 위한 단백질 끌어올려~↗↗</p>
+                                </li>
+                            </ul>
+                            <ul class="bottom-area">
+                                <li>
+                                    <figure>
+                                        <img src="./assets/images/tab-bottom_2-1.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">러브잇 NEW 소프트 닭가슴살 프로 120g X 10팩</span>
+                                            <span class="price"><strong>24,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="./assets/images/tab-bottom_2-2.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">잇메이트 닭가슴살 소시지 프로 훈제맛 120g X 15팩</span>
+                                            <span class="price"><strong>25,300</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="./assets/images/tab-bottom_1-1.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">맛있닭 프로 닭가슴살 120g X 10팩</span>
+                                            <span class="price"><strong>25,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="./assets/images/tab-bottom_2-4.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">맛있닭 저염 스팀 닭가슴살 오리지널 100g X 10팩</span>
+                                            <span class="price"><strong>19,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="top-area">
+                                <li class="img-box">
+                                    <img src="./assets/images/tab_img3.jpg" alt="런치플레이션 대비하기">
+                                </li>
+                                <li class="text-box">
+                                    <em>갓성비 넘치는 한끼 식사!</em>
+                                    <p>간단하지만 든든한 닭가슴살 볶음밥</p>
+                                </li>
+                            </ul>
+                            <ul class="bottom-area">
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230105/IMG1672oHY882277270_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">맛있닭 닭가슴살 한끼 파우치 곤약 볶음밥 혼합 200g X 10팩</span>
+                                            <span class="price"><strong>30,800</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230510/IMG1683fBh692961367_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">랭커 닭가슴살 볶음밥 혼합 200g X 10팩 </span>
+                                            <span class="price"><strong>14,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230503/IMG1683FnL096543187_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">잇메이트 닭가슴살 몬스터 귀리볶음밥 혼합 250g X 12팩</span>
+                                            <span class="price"><strong>39,480</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230503/IMG1683rCs097889156_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">교촌 시그니처 볶음밥 혼합 230g X 10팩</span>
+                                            <span class="price"><strong>24,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="top-area">
+                                <li class="img-box">
+                                    <img src="./assets/images/tab_img4.jpg" alt="영양가-득 소고기">
+                                </li>
+                                <li class="text-box">
+                                    <em>촉촉한 육즙과 부드러움은 기본</em>
+                                    <p>소고기 단백질로 색다르게 식단 채우기!</p>
+                                </li>
+                            </ul>
+                            <ul class="bottom-area">
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230509/IMG1683xGd593144392_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">맛있소 소고기 스테이크 혼합 100g X 10팩</span>
+                                            <span class="price"><strong>29,000</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230119/IMG1674eVP112481701_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">신선애 소고기 설도 슬라이스 200g X 5팩</span>
+                                            <span class="price"><strong>24,500</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230509/IMG1683GCE593861650_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">잇메이트 프로틴 어묵 다이어트 떡볶이 290g X 5팩</span>
+                                            <span class="price"><strong>29,000</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230509/IMG1683aVQ593504704_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">잇메이트 소고기볼 혼합 100g X 10팩</span>
+                                            <span class="price"><strong>27,000</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="top-area">
+                                <li class="img-box">
+                                    <img src="./assets/images/tab_img5.jpg" alt="단백질 끝판왕 쉐이크">
+                                </li>
+                                <li class="text-box">
+                                    <em>프로틴에 진심인 사람들 집중!</em>
+                                    <p>슉슉 흔들어 초간편 단백질 충전</p>
+                                </li>
+                            </ul>
+                            <ul class="bottom-area">
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20220922/IMG1663nuX825498870_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">프로틴어스 프로틴러쉬 오리지널 250ml X 6팩</span>
+                                            <span class="price"><strong>8,400</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230119/IMG1674kIJ115083156_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">닥터유 프로 단백질 파우더 1kg X 1개</span>
+                                            <span class="price"><strong>49,900</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230509/IMG1683cug594789623_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">잇메이트 프로틴 어묵 다이어트 떡볶이 290g X 5팩</span>
+                                            <span class="price"><strong>32,800</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230119/IMG1674wUN114485829_330_330.jpg" alt>
+                                    </figure>
+                                    <div>
+                                        <a href="">
+                                            <span class="text">이지푸드 간편하게 한끼 뚝닭 쉐이크 혼합 300g X 8팩</span>
+                                            <span class="price"><strong>43,000</strong>원</span>
+                                        </a>
+                                    </div>
+                                    <button class="cart-btn"><span class="blind">장바구니 버튼</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sc-hot_new">
+                <h2 class="blind">HOT상품,신상품</h2>
+                <div class="title-area">
+                    <h3 class="title">지금 뜨는 HOT!한 상품</h2>
+                </div>
+                <div class="swiper hotSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/ICONTHUMB/20230524/IMG1684gBm916770238.png" alt>
+                                    </div>
+                                    <img src="./assets/images/hot-1.jpg" alt="[맛있닭] 한입 소스 닭가슴살 37% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[맛있닭] 한입 소스 닭가슴살 37% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>37</strong>%
+                                        </span>
+                                        <span class="price"><em>13,900</em>원</span>
+                                        <span class="og-price"><span>22,500</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 1,850원~1,990원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="./assets/images/img-badge.png" alt="[맛있닭] 속까지 가득 채운 맛있는 요리, 닭가슴살 한끼 스테이크 & 추가 증정">
+                                    </div>
+                                    <img src="./assets/images/hot-2.jpg" alt="[잇메이트] 훈제 닭가슴살 38% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[잇메이트] 훈제 닭가슴살 38% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>29</strong>%
+                                        </span>
+                                        <span class="price"><em>14,000</em>원</span>
+                                        <span class="og-price"><span>22,400</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 1,850원~1,990원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="./assets/images/img-badge.png" alt>
+                                    </div>
+                                    <img src="./assets/images/hot-3.jpg" alt="[러브잇] 소프트 닭가슴살 최대 40% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[러브잇] 소프트 닭가슴살 최대 40% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>37</strong>%
+                                        </span>
+                                        <span class="price"><em>13,900</em>원</span>
+                                        <span class="og-price"><span>22,050</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 1,850원~1,990원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="./assets/images/img-badge.png" alt>
+                                    </div>
+                                    <img src="./assets/images/hot-4.jpg" alt="[잇메이트] 닭가슴살 버거 37% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[잇메이트] 닭가슴살 버거 37% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>29</strong>%
+                                        </span>
+                                        <span class="price"><em>16,200</em>원</span>
+                                        <span class="og-price"><span>25,700</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 1,850원~1,990원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="title-area">
+                    <h3 class="title">오늘의 신상품✨</h3>
+                    <a href="" class="link-more">더보기</a>
+                </div>
+                <div class="swiper newSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="https://file.rankingdak.com/image/RANK/PRODUCT/ICONTHUMB/20230524/IMG1684wIe918245281.png" alt>
+                                    </div>
+                                    <img src="./assets/images/new1.jpg" alt="랭커 스팀 닭가슴살 오리지널 100g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">0</span>
+                                            <span class="rv-a">(0)</span>
+                                        </div>
+                                    </div>
+                                    <p>랭커 스팀 닭가슴살 오리지널 100g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>22,400</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 1,240원~1,490원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <!-- <img src="./assets/images/img-badge.png" alt> -->
+                                    </div>
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230424/IMG1682NUJ311992586_330_330.jpg" alt="맛있닭 에어치킨 혼합 115~120g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.3</span>
+                                            <span class="rv-a">(4)</span>
+                                        </div>
+                                    </div>
+                                    <p>맛있닭 에어치킨 혼합 115~120g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>14,800</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 3,500원~3,700원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="./assets/images/img-badge.png" alt>
+                                    </div>
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230531/IMG1685PEd513196225_330_330.jpg" alt="랭커 WPI 단백질쉐이크 초코 1kg">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">0</span>
+                                            <span class="rv-a">(0)</span>
+                                        </div>
+                                    </div>
+                                    <p>랭커 WPI 단백질쉐이크 초코 1kg</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>44,900</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 44,900원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <div class="img-bd">
+                                        <img src="./assets/images/img-badge.png" alt>
+                                    </div>
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230601/IMG1685jRe582741393_330_330.jpg" alt="랭커 소스 닭가슴살 스테이크 혼합 130g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">특급배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">0</span>
+                                            <span class="rv-a">(0)</span>
+                                        </div>
+                                    </div>
+                                    <p>랭커 소스 닭가슴살 스테이크 혼합 130g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>14,900</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 1,240원~1,490원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <div class="event-banner2">
+                <div class="swiper banner2 bn-swiper">
+                    <h2 class="blind">이벤트 배너</h2>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner2-1.jpg" alt="오늘 주문하면 오늘 도착! 특급배송"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner2-2.jpg" alt="앱 다운 받으면 1,000원 할인 쿠폰"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner2-3.jpg" alt="모든 쿠폰을 한자리에 5월,이달의 쿠폰"></a>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <span class="fraction"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="sc-salad">
+                <div class="title-area">
+                    <h2 class="title">근육절 히든카드 닭가슴살 대방출💪</h2>
+                    <a href="" class="link-more">더보기</a>
+                </div>
+                <div class="swiper newSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="./assets/images/chk1.jpg" alt="[맛있닭] 소스 통 닭가슴살 42% 할인 ">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[맛있닭] 소스 통 닭가슴살 42% 할인 </p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>42</strong>%
+                                        </span>
+                                        <span class="price"><em>13,000</em>원</span>
+                                        <span class="og-price"><span>22,000</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684GZO893148893_330_330.jpg" alt="[허닭] 스팀 닭가슴살 슬라이스 33% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(790+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[허닭] 스팀 닭가슴살 슬라이스 33% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>33</strong>%
+                                        </span>
+                                        <span class="price"><em>33,600</em>원</span>
+                                        <span class="og-price"><span>50,000</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230526/IMG1685CBT080760035_330_330.jpg" alt="[bhc] 시그니처 홀 닭가슴살 32% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(304+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[bhc] 시그니처 홀 닭가슴살 32% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>32</strong>%
+                                        </span>
+                                        <span class="price"><em>11,500</em>원</span>
+                                        <span class="og-price"><span>16,000</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230526/IMG1685XcK080038396_330_330.jpg" alt="[맛있닭] 소프트 닭가슴살 38% 할인 ">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[맛있닭] 소프트 닭가슴살 38% 할인 </p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>38</strong>%
+                                        </span>
+                                        <span class="price"><em>13,200</em>원</span>
+                                        <span class="og-price"><span>21,400</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="sc-package">
+                <div class="title-area">
+                    <h2 class="title">뭘 살지 고민된다면, 추천패키지</h2>
+                </div>
+                <div class="swiper packSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/pack1.jpg" alt>
+                                </div>
+                                <div class="text-box">
+                                    <p>맛있닭 닭가슴살! 뭘사야할지 모르겠다면 이 패키지!</p>
+                                </div>
+                            </a>
+                        </div>     
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/pack2.jpg" alt>
+                                </div>
+                                <div class="text-box">
+                                    <p>칼로리 완벽 조절을 위한, 다이어트 1주 식단 패키지</p>
+                                </div>
+                            </a>
+                        </div>     
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/pack3.jpg" alt>
+                                </div>
+                                <div class="text-box">
+                                    <p>잇메이트 81종 전제품 골라담기!</p>
+                                </div>
+                            </a>
+                        </div>     
+                        <!-- <div class="swiper-slide">
+                            <div class="img-box">
+                                <img src="./assets/images/pack4.jpg" alt>
+                            </div>
+                            <div class="text-box">
+                                <p>맛있닭 닭가슴살! 뭘사야할지 모르겠다면 이 패키지!</p>
+                            </div>
+                        </div>      -->
+                    </div>
+                </div> 
+            </section>
+
+            <section class="sc-balance">
+                <div class="title-area">
+                    <h2 class="title">가성비甲 알뜰킹 모여라📢</h2>
+                    <a href="" class="link-more">더보기</a>
+                </div>
+                <div class="swiper newSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="./assets/images/bal1.jpg" alt="랭커 닭가슴살 볶음밥 혼합 200g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(350+)</span>
+                                        </div>
+                                    </div>
+                                    <p>랭커 닭가슴살 볶음밥 혼합 200g</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>29</strong>%
+                                        </span>
+                                        <span class="price"><em>19,900</em>원</span>
+                                        <span class="og-price"><span>27,700</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="./assets/images/bal2.jpg" alt="[맛있닭] 속까지 가득 채운 맛있는 요리, 닭가슴살 한끼 스테이크 & 추가 증정">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(753+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[맛있닭] 속까지 가득 채운 맛있는 요리, 닭가슴살 한끼 스테이크 & 추가 증정</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>22</strong>%
+                                        </span>
+                                        <span class="price"><em>20,900</em>원</span>
+                                        <span class="og-price"><span>27,700</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230530/IMG1685qgz412581057_330_330.jpg" alt="[잇메이트] 닭가슴살 구운 주먹밥 51% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[잇메이트] 닭가슴살 구운 주먹밥 51% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>51</strong>%
+                                        </span>
+                                        <span class="price"><em>10,400</em>원</span>
+                                        <span class="og-price"><span>21,120</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230524/IMG1684MrF914343278_330_330.jpg" alt="[밀스원] 바디케어 도시락 식단 5종 최대 45% 할인">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>[밀스원] 바디케어 도시락 식단 5종 최대 45% 할인</p>
+                                    <div class="price-info">
+                                        <span class="sale">
+                                            <strong>44</strong>%
+                                        </span>
+                                        <span class="price"><em>52,900</em>원</span>
+                                        <span class="og-price"><span>93,000</span>원</span>
+                                    </div>
+                                    <!-- <span class="detail">1팩당 : 7,500원~7,900원</span> -->
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="sc-healthy">
+                <div class="title-area">
+                    <h2 class="title">건강한 집밥 한그릇 뚝딱🍲</h2>
+                    <a href="" class="link-more">더보기</a>
+                </div>
+                <div class="swiper newSwiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230518/IMG1684PMg368038761_330_330.jpg" alt="럭스독 치킨 웨이트 져키 165g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(14)</span>
+                                        </div>
+                                    </div>
+                                    <p>럭스독 치킨 웨이트 져키 165g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>7,700</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 7,700원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <!-- <img src="./assets/images/ad-chk.png" alt=""> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230410/IMG1681LIb115528671_330_330.jpg" alt="가이갱이 강아지간식 장건강+피부건강 100g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>가이갱이 강아지간식 장건강+피부건강 100g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>4,300</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 3,130원~4,300원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230407/IMG1680iWE840275821_330_330.jpg" alt="슈퍼포우 동결건조 램프로스트 180g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>슈퍼포우 동결건조 램프로스트 180g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>26,800</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 22,800원~26,800원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <a href="">
+                                    <img src="https://file.rankingdak.com/image/RANK/PRODUCT/PRD001/20230518/IMG1684UwQ367810883_330_330.jpg" alt="럭스독 치킨 단백질바 110g">
+                                    <div class="link-cart">
+                                        <span class="blind">장바구니</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <a href="">
+                                    <div class="text-top">
+                                        <span class="dv-icon"><span class="blind">무료배송</span></span>
+                                        <div class="review">
+                                            <i class="rv-icon"></i>
+                                            <span class="rv-n">4.9</span>
+                                            <span class="rv-a">(999+)</span>
+                                        </div>
+                                    </div>
+                                    <p>럭스독 치킨 단백질바 110g</p>
+                                    <div class="price-info">
+                                        <!-- <span class="sale"> <strong>29</strong>% </span> -->
+                                        <span class="price"><em>11,200</em>원</span>
+                                        <!-- <span class="og-price"><span>27,700</span>원</span> -->
+                                    </div>
+                                    <span class="detail">1팩당 : 11,200원</span>
+                                    <div class="ad-icon">
+                                        <img src="./assets/images/ad-new.png" alt="">
+                                        <img src="./assets/images/ad-img1.png" alt>
+                                        <img src="./assets/images/ad-chk.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="event-banner3">
+                <div class="swiper banner3 bn-swiper">
+                    <h2 class="blind">이벤트 배너</h2>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner3-1.jpg" alt="검색하고 쿠폰&경품받자"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner3-2.jpg" alt="별별랭킹 이달의 랭킹닭컴 사용설명서"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./assets/images/event-banner3-3.jpg" alt="랭킬닭컴 출석체크 이벤트"></a>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <span class="fraction"></span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="sc-best">
+                <div class="title-area">
+                    <h2 class="title">인기 카테고리 상품</h2>
+                </div>
+                <div class="swiper tab-nav tab-nav2 best-tab">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="" class="on" data-cate="1">닭가슴살</a></div>
+                        <div class="swiper-slide"><a href="" data-cate="2">즉석 간편식</a></div>
+                        <div class="swiper-slide"><a href="" data-cate="3">도시락·볶음밥</a></div>
+                        <div class="swiper-slide"><a href="" data-cate="4">닭안심살</a></div>
+                        <div class="swiper-slide"><a href="" data-cate="5">샐러드·과일</a></div>
+                        <div class="swiper-slide"><a href="" data-cate="6">음료·차·프로틴</a></div>
+                    </div>
+                    
+                    <ul class="tab-list" id="cateList">
+                        
+                    </ul>
+
+                    <a href="" class="all-btn">전체보기</a>
+                </div>
+                
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h2 class="blind">랭킹닭컴 푸터</h2>
+            <div class="group-top">
+                <ul class="footer-top">
+                    <li>
+                        <a href="">로그인</a>
+                    </li>
+                    <li>
+                        <a href="">고객센터</a>
+                    </li>
+                    <li>
+                        <a href="">고객의 소리</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="inner-wrap">
+                <div class="inner">
+                    <div class="cs">
+                        고객센터<em>02-6405-8088</em>
+                    </div>
+                    <p>평일 09:00 ~ 18:00 (점심 12:00 ~ 13:00)</p>
+                    <p>주말, 공휴일 휴무</p>
+                </div>
+                <div class="inner">
+                    <nav>
+                        <ul class="foot-list">
+                            <li><a href="">회사소개</a></li>
+                            <li><a href="">공지사항</a></li>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href=""><em>개인정보처리방침</em></a></li>
+                        </ul>
+                    </nav>
+                    <p class="corp-info">(주)푸드나무 사업자정보확인</p>
+                    <ul class="sns-list">
+                        <li class="list-item">
+                            <a href="">
+                                <i class="facebook"></i>
+                                <span class="blind">페이스북</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="insta"></i>
+                                <span class="blind">인스타그램</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="blog"></i>
+                                <span class="blind">블로그</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="post"></i>
+                                <span class="blind">네이버포스트</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="kakao"></i>
+                                <span class="blind">카카오톡</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="youtube"></i>
+                                <span class="blind">유튜브</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="copy">©랭킹닭컴 All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="quick-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="">
+                        <i class="hamburger"></i>
+                        <span class="blind">메뉴</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="coupon"></i>
+                        <span class="blind">이달의 쿠폰</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="home"></i>
+                        <span class="blind">홈</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="mypage"></i>
+                        <span class="blind">마이페이지</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="recent"></i>
+                        <span class="blind">최근 본 상품</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
