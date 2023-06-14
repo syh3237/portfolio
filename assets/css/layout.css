@@ -3,7 +3,6 @@
 @import './font.css';
 
 .wrap{
-    /* width: 100%;height: 100%; */
     min-width: 1200px;
 }
 /* header */
@@ -18,7 +17,6 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 18px;
-    /* line-height: 1.5vw; */
     color: #fff;
     mix-blend-mode: difference;
     z-index: 99;
@@ -30,7 +28,7 @@
     position: relative;
     background-color: rgba(19, 19, 19, 1);
     color: #fff;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
     padding: 0 100px;
 }
@@ -46,10 +44,6 @@
     justify-content: center;
     font-size: 64px;
     line-height: 64px;
-}
-.footer .contact-area{
-    /* width: 1200px; */
-    /* margin: 0 auto; */
 }
 .footer .contact-area .mail{
     display: flex;
