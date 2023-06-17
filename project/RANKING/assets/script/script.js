@@ -31,9 +31,9 @@ $(function(){
     const tsSwiper = new Swiper(".tsSwiper", {
         slidesPerView: 1.2,
         spaceBetween: 15,
-        autoplay:{
-            delay:4000
-        },
+        // autoplay:{
+        //     delay:4000
+        // },
         pagination: {
         el: ".swiper-pagination",
         clickable: false,
@@ -188,11 +188,5 @@ $(function(){
     function numberFormat(num){
         return num.toLocaleString('ko-KR');
     }
-
-
-
-
-
-
 
 })
