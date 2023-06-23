@@ -21,6 +21,10 @@
     mix-blend-mode: difference;
     z-index: 99;
 }
+.header .gnb-list{
+    display: flex;
+    gap: 30px;
+}
 
 /* contact */
 .footer{

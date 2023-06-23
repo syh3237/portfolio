@@ -21,19 +21,18 @@ $(function(){
 
 
     // 서브메뉴on
-    $('.header .gnb a').click(function(e){
-        e.preventDefault();
-        $('.menu').toggleClass('on');
-        if($('.menu').hasClass('on')){
-            $('body').addClass('scroll-stop');
-        }else{
-            $('body').removeClass('scroll-stop');
-        }
-    })
-    $('.menu-item a').on('click', function(e){
+    // $('.header .gnb a').click(function(e){
+    //     e.preventDefault();
+    //     $('.menu').toggleClass('on');
+    //     if($('.menu').hasClass('on')){
+    //         $('body').addClass('scroll-stop');
+    //     }else{
+    //         $('body').removeClass('scroll-stop');
+    //     }
+    // })
+    $('.gnb-item a').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({scrollTop:$(this.hash).offset().top}, 2000);
-        $('.menu').removeClass('on');
     })
 
 
