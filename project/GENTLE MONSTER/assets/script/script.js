@@ -1,10 +1,7 @@
 $(function(){
-
-
     $('body').mousemove(function(e){
         xVal = e.clientX;
         yVal = e.clientY;
-
         gsap.to('.cursor',{
             x:xVal,
             y:yVal
@@ -12,7 +9,6 @@ $(function(){
     })
 
     // intro
-
     gsap.set('.container .main-text > *',{
         opacity:0,
         yPercent:20
@@ -44,9 +40,7 @@ $(function(){
 
     
     $('[data-scroll]').each(function(i,el){
-
         yVal = $(this).data('scroll');
-
         gsap.to(el,{
             scrollTrigger:{
                 trigger:el,
@@ -56,8 +50,6 @@ $(function(){
                 scrub:1,
             },
             yPercent:yVal
-
-
         })
     })
 
@@ -84,8 +76,6 @@ $(function(){
         return `https://d197cwgxgz2ypb.cloudfront.net/sweetpain/seq/home-pads/frame_${idx.toString().padStart(5, '0')}.png`;
     }; // 리턴 필수
 
-
-
     const images = [];
     const card = {
         frame: 0,
@@ -101,7 +91,6 @@ $(function(){
         img.src = currentFrame(i + 1);
         images.push(img);
     }
-
 
     for (let i = 0; i < frameCount2; i++) {
         const img2 = new Image();
@@ -122,8 +111,6 @@ $(function(){
         },
         onUpdate: render,
     });
-
-
 
     pinMotion = gsap.timeline({
         scrollTrigger: {
@@ -146,9 +133,6 @@ $(function(){
         opacity:0,
     })
 
-
-
-
     images[0].onload = render;
     images2[0].onload = render2;
     
@@ -160,15 +144,6 @@ $(function(){
         ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
         ctx2.drawImage(images2[card2.frame], 0, 0);
     }
-
-
-
-
-
-    // https://d197cwgxgz2ypb.cloudfront.net/sweetpain/seq/home-pads/frame_00000.png
-
-
-
 
     $('[data-hr]').each(function(i,item){
 
@@ -183,24 +158,12 @@ $(function(){
                 scrub:1,
             },
             xPercent:xVal
-
-
         })
     })
 
-
-
-
-
-
-
-
     let scollTop = 0;
-
     $(window).scroll(function(){
-        
         curr = $(this).scrollTop();
-        
         if(curr > scollTop){
             $('.gnb').addClass('hide');
         }else{

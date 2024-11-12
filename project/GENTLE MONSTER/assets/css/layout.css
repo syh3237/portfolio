@@ -3,61 +3,6 @@
 @import './font.css';
 
 /* header */
-
-/* .header{
-    position: fixed;
-    top: 0;left: 0;
-    height: 40px;
-    padding: 25px 0 0;
-    width: 100%;
-    font-size: 14px;
-    color: #fff;
-    z-index: 1;
-}
-.inner{
-    height: 100%;
-    margin: 0 52px;
-}
-.header .nav-list{
-    display: flex;
-    justify-content: space-between;
-}
-.header .gnb-list{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-.header .menu{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-.header .menu-icon{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin-top: 2px;
-    cursor: pointer;
-}
-.header .menu-icon span{
-    width: 15px;height: 1px;
-    background: #fff;
-}
-
-.header .gnb{
-    transition: .3s;
-}
-.header .gnb.hide{
-    opacity: 0;
-}
-.header a{
-    transition: .3s;
-    font-weight: bold;
-}
-.header a:hover{
-    color: #f5b6cd;
-} */
-
 .header{
     color: #111;
 }

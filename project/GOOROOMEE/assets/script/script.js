@@ -6,9 +6,7 @@ $(function(){
     })
 
     // header 
-
     let lastScroll = 0;
-
     $(window).scroll(function(){
         curr = $(window).scrollTop();
         sec2 = $('.section2').offset().top;
@@ -67,15 +65,12 @@ $(function(){
 
 
     const navSwiper = new Swiper(".slide1 .tabNav-swiper", {
-        // loop: true,
-        // spaceBetween: 10,
         slidesPerView: 'auto',
         freeMode: true,
         watchSlidesProgress: true,
     });
     const contSwiper = new Swiper(".slide1 .tabCont-swiper", {
         loop: true,
-        // spaceBetween: 10,
         thumbs: {
             swiper: navSwiper,
         },
@@ -84,45 +79,36 @@ $(function(){
 
 
     const navSwiper2 = new Swiper(".slide2 .tabNav-swiper", {
-        // loop: true,
-        // spaceBetween: 10,
         slidesPerView: 'auto',
         freeMode: true,
         watchSlidesProgress: true,
     });
     const contSwiper2 = new Swiper(".slide2 .tabCont-swiper", {
         loop: true,
-        // spaceBetween: 10,
         thumbs: {
             swiper: navSwiper2,
         },
     });
 
     const navSwiper3 = new Swiper(".slide3 .tabNav-swiper", {
-        // loop: true,
-        // spaceBetween: 10,
         slidesPerView: 'auto',
         freeMode: true,
         watchSlidesProgress: true,
     });
     const contSwiper3 = new Swiper(".slide3 .tabCont-swiper", {
         loop: true,
-        // spaceBetween: 10,
         thumbs: {
             swiper: navSwiper3,
         },
     });
 
     const navSwiper4 = new Swiper(".slide4 .tabNav-swiper", {
-        // loop: true,
-        // spaceBetween: 10,
         slidesPerView: 'auto',
         freeMode: true,
         watchSlidesProgress: true,
     });
     const contSwiper4 = new Swiper(".slide4 .tabCont-swiper", {
         loop: true,
-        // spaceBetween: 10,
         thumbs: {
             swiper: navSwiper4,
         },
@@ -174,7 +160,6 @@ $(function(){
             trigger:".section5",
             start:"0% 50%",
             end:'100% 0%',
-            // markers:true,
         },
         scale:0,
         delay:0.5,
@@ -204,11 +189,8 @@ $(function(){
     });
 
     const cleintSwiper = new Swiper(".client-swiper", {
-        // touchRatio:0,
         slidesPerView: 'auto',
-        // centeredSlides:true,
         spaceBetween: 20,
-        // loop:true,
         pagination: {
             el: ".pagination"
         },
@@ -246,7 +228,6 @@ $(function(){
         slidesPerView: 1,
         spaceBetween: 0,
         effect:'fade',
-        // mousewheel: true,
         pagination: {
             el: ".pagination",
             clickable: true,
@@ -308,7 +289,6 @@ $(function(){
                         trigger:$(this),
                         start:"0% 80%",
                         end:'100% 0%',
-                        // markers:true,
                     },
                     opacity:0,
                     y:50,
@@ -326,7 +306,6 @@ $(function(){
                 trigger:$(this),
                 start:"0% 80%",
                 end:'100% 0%',
-                // markers:true,
             },
             opacity:0,
             x:-50,
@@ -341,7 +320,6 @@ $(function(){
     const dvSwiper = new Swiper(".sc3-deviceSwiper", {
         slidesPerView: 'auto',
         spaceBetween: 18,
-        // loop:true,
         pagination: {
             el: ".dv-pagination",
             type: "progressbar"

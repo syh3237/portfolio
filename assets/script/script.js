@@ -1,5 +1,4 @@
 $(function(){
-    
     // 로딩화면
     const loading = gsap.timeline({
         onComplete:function(){
@@ -16,25 +15,13 @@ $(function(){
     .to('.loading',{
             opacity:0,
             delay:3,
-            // duration: 1,
         },'ani')
 
-
     // 서브메뉴on
-    // $('.header .gnb a').click(function(e){
-    //     e.preventDefault();
-    //     $('.menu').toggleClass('on');
-    //     if($('.menu').hasClass('on')){
-    //         $('body').addClass('scroll-stop');
-    //     }else{
-    //         $('body').removeClass('scroll-stop');
-    //     }
-    // })
     $('.gnb-item a').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({scrollTop:$(this.hash).offset().top}, 2000);
     })
-
 
     // 마우스 커서
     $('body').mousemove(function(e){
@@ -120,7 +107,6 @@ $(function(){
         })
     })
 
-
     // all-project
     $('.intro .btn-pj').click(function(){
         $('.pj-list').toggleClass('on');
@@ -148,13 +134,8 @@ $(function(){
         })
     })
 
-
-
-
     // project name
-
     $('.work-item').mousemove(function(e){
-
         w = $(this).find('a').width()/2
         h = $(this).find('a').height()/2
         xVal = e.offsetX - w;

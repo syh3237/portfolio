@@ -7,7 +7,6 @@ main{
     width: 100%;
     padding: 0 15px 2px;
     border-bottom: 1px solid #e6e6e6;
-    /* background: #fff; */
 }
 .gnb-list{
     display: flex;
@@ -19,13 +18,11 @@ main{
 }
 
 /* sc-main_visual */
-
 .sc-main_visual{
     padding: 0;
 }
 
 /* sc-category */
-
 .sc-category{
     margin-top: 15px;
     padding: 0 15px 24px;
@@ -85,7 +82,6 @@ main{
 }
 
 /* event-banner */
-
 .event-banner{
     position: relative;
     width: 100%;
@@ -104,7 +100,6 @@ main{
 }
 
 /* sc-time_sale */
-
 .sc-time_sale .title-area .timeSale-icon{
     background: url('../images/timeSale-icon.png')no-repeat;
     width: 25px;height: 25px;
@@ -152,7 +147,6 @@ main{
 }
 
 /* sc-rocomm */
-
 .sc-recomm .text-box span{
     display: block;
 }
@@ -174,16 +168,12 @@ main{
 }
 
 /* dlv-banner */
-/* dlv-banner */
-
 .banner2,
 .banner3{
     margin-top: 50px;
 }
 
 /* sc-theme */
-
-
 .sc-theme .tab-swiper .swiper-slide{
     margin-top: 10px;
 }
@@ -274,7 +264,6 @@ main{
 /* sc-hot_new */
 /* sc-salad */
 
-
 .sc-hot_new .img-bd{
     position: absolute;
     top: 5px;
@@ -340,8 +329,8 @@ main{
     flex-direction: column;
     gap: 10px;
 }
-/* sc-best */
 
+/* sc-best */
 .sc-best .best-tab .swiper-wrapper{
     width: 100%;
 }

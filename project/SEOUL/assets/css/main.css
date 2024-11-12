@@ -2,9 +2,7 @@
     min-width: 1280px;
 }
 
-
 /* section-wrap */
-
 .section-wrap .main-visual{
     display: flex;
 }
@@ -333,7 +331,6 @@
 }
 
 /* section-wrap2 */
-
 .section-wrap2{
     padding: 50px 0;
     border-bottom: 2px solid #222222;
@@ -405,7 +402,6 @@
 }
 
 /* section4 */
-
 .info-sc{
     padding-top: 40px;
 }
@@ -461,7 +457,6 @@
 }
 
 /* section5 */
-
 .n-news{
     padding: 20px 0 30px;
 }
@@ -538,7 +533,6 @@
 }
 
 /* seoul-media */
-
 .seoul-media{
     display: flex;
     gap: 20px;
@@ -660,7 +654,6 @@
 }
 
 /* banner-slide */
-
 .banner-slide{
     padding: 50px 0;
     border-top: 2px solid #222222;
@@ -708,7 +701,6 @@
 }
 
 /* tab-menu */
-
 .tab-menu{
     padding-bottom: 20px;
 }
@@ -736,7 +728,6 @@
     align-items: center;
     padding-right: 20px;
 }
-
 .tab-menu .corp-item .arrow::after{
     content: '';
     position: absolute;

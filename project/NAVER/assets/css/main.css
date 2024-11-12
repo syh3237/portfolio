@@ -1,4 +1,3 @@
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -17,8 +16,6 @@
     position: sticky;
     top: 0;right: 0;
 }
-
-
 
 .sc-news{
     margin-top: 12px;
@@ -53,8 +50,6 @@
     vertical-align: top;
     content: '';
 }
-.sc-news .group-issue .link-issue{}
-
 .sc-news .group-issue .direct-area{
     display: flex;
     font-weight: bold;
@@ -207,7 +202,6 @@
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(4,1fr);
 }
-.sc-news .group-media .media-item{}
 .sc-news .group-media .media{
     display: flex;
     height: 100%;
@@ -251,7 +245,6 @@
 .sc-login .login-msg{
     padding-left: 3px;
     color: grey;
-    /* letter-spacing: -.2px; */
 }
 .sc-login .link-login{
     display: block;
@@ -301,7 +294,6 @@
     margin: 0 5px;
     vertical-align: 3px;
 }
-.sc-login .flex-area .link-find{}
 .sc-login .flex-area .link-join{
     margin-left: auto;
 }
@@ -326,7 +318,6 @@
 
 .sc-timesquare .link-news{
     display: flex;
-    /* background: #f00; */
     height: 100%;
     align-items: center;
     padding-left: 16px;
@@ -543,7 +534,6 @@
 }
 
 /* contents - list1 */
-
 .sc-theme .list1 .vd-title{
     padding: 16px 18px 0 0;
 }
@@ -566,7 +556,6 @@
 }
 
 /* list2 */
-
 .sc-theme .list-theme-wrap > li + li{
     margin-top: 18px;
 }
@@ -703,14 +692,12 @@
     background-position: 0 -342px;
     display: block;
     margin: 0 auto 3px;
-    vertical-align: top; /*??*/
+    vertical-align: top;
 }
 
 /* column-right */
-
 .sc-shopping{
     margin-top: 15px;
-    /* height: 1809px; */
 }
 .sc-shopping .group-title{
     display: flex;
@@ -761,7 +748,6 @@
 }
 
 /* group-mall */
-
 .sc-shopping .group-mall{
     padding: 12px 6px 11px 10px;
     background: #f7f9fa;
@@ -774,7 +760,6 @@
 }
 
 /* group-goods */
-
 .sc-shopping .group-goods{
     position: relative;
     padding: 55px 8px 20px;
@@ -879,7 +864,6 @@
 }
 
 /* group-shop-news */
-
 .sc-shopping .group-shop-news{
     margin: 0 12px;
     padding: 19px 0 17px;
@@ -919,7 +903,6 @@
 }
 
 /* group-plus */
-
 .sc-shopping .group-plus{
     position: relative;
     padding: 18px 0;

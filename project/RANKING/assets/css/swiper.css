@@ -1,11 +1,9 @@
 /* sc-main_visual */
-
 .main-visual .swiper-wrapper{
     padding: 0;
 }
 
 /* sc-time_sale */
-
 .swiper {
     width: 100%;
 }
@@ -32,7 +30,6 @@
 }
 
 /* dlv-banner */
-
 .event-banner2,
 .event-banner3{
     padding: 0 15px;

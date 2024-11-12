@@ -1,9 +1,7 @@
 .container{
     width: 100%;
 }
-
 /* section1 */
-
 .section1{
     width: 100%;
     height: 100vh;
@@ -171,7 +169,6 @@
 }
 
 /* section2 */
-
 .sc-features{
     padding: 0;
 }
@@ -253,7 +250,6 @@
 }
 
 /* section3 */
-
 .section3 .cont-area{
     margin-top: 118px;
     padding-bottom: 30px;
@@ -400,12 +396,10 @@
     cursor: pointer;
 
 }
-
 .section3 .tabNav-swiper .swiper-slide.flip {
     transform: rotateY(180deg);
     transition: .3s;
 }
-
 
 .section3 .tabNav-swiper .swiper-slide.hide{
     display: none;
@@ -455,7 +449,6 @@
 }
 
 /* section4 */
-
 .section4{
     padding: 165px 0 170px;
     background: #f3f4f7;
@@ -570,7 +563,6 @@
 }
 
 /* section5 */
-
 .section5{
     height: 149.64vh;
     padding: 0;
@@ -844,7 +836,6 @@
 }
 
 /* section7 */
-
 .section7{
     overflow: hidden;
 }

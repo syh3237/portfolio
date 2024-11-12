@@ -148,7 +148,6 @@
 }
 .footer .col-left{
     display: flex;
-    /* justify-content: space-between; */
     width: calc(100% - 194px);
 }
 .footer .col-left p{

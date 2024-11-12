@@ -45,7 +45,6 @@
     width: 25px;height: 25px;
     background: url('../images/ico-m-cart.svg')no-repeat;
     background-size: 100% auto;
-    /* background-position: center bottom; */
     content: '';
 }
 .header .search-area{
